@@ -49,20 +49,27 @@ Roboitcs, IoT and TinyML Machine Learning using in-expensive hardware such as th
 
 
 
-<span class="tree"> <summary>Test 1 </summary>
+<span class="tree"> 
   <details open><summary>Gas giants</summary>
+    <ul>
         <li>Jupiter</li>
         <li>Saturn</li>
     </ul>
     </details>
 
-  <details opoen> <summary>Ice giants</summary>
+  <details open> <summary>Ice giants</summary>
             <ul>
               <li>Uranus</li>
               <li>Neptune</li>
             </ul>
   </details>
-
+  
+  <details closed> <summary>Ice giants</summary>
+            <ul>
+              <li>Uranus</li>
+              <li>Neptune</li>
+            </ul>
+  </details>
 </span>
 
 
