@@ -1,5 +1,5 @@
 # maker100-eco
-Roboitcs, IoT and TinyML Machine Learning using in-expensive hardware such as the $14 Seeedstudio XiaoEsp32s and the $14 RakWireless Rak2270StickerTracker
+Roboitcs, IoT and TinyML Machine Learning using in-expensive hardware such as the[$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) and the [$14.50 USD RakWireless RAK2270StickerTracker]
 
 
 
@@ -35,3 +35,37 @@ Roboitcs, IoT and TinyML Machine Learning using in-expensive hardware such as th
     </details>
   </li>
 </ul>
+
+
+
+
+
+
+
+-----
+
+
+
+
+
+
+<span class="tree"> Test1
+  <details open>
+     <details>
+     <ul>gas giants
+        <li>Jupiter</li>
+        <li>Saturn</li>
+    </ul>
+    </details>
+
+    <details>
+            <summary>Ice giants</summary>
+            <ul>
+              <li>Uranus</li>
+              <li>Neptune</li>
+            </ul>
+  </details>
+
+</details>
+
+
