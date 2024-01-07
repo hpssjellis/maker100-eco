@@ -74,6 +74,11 @@ Roboitcs, IoT and TinyML Machine Learning using in-expensive hardware such as th
 
   <details closed> <summary>Why Make Maker100-eco?</summary>
 The arduino PortentaH7 with LoRa Vision Shield is an encredible TinyML device that can do amazing things and has been a joy to teach, but I am part of an international group trying to bring tinyML to the students in developing countries and the Arduino Portenta is just too expensive for students explorations.
+
+
+     <img src="media/diagrams.png" width = 600/> 
+
+     
   </details>
 
   
