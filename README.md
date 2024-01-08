@@ -131,7 +131,10 @@ So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class
 | <a name="29" href="#29">`29`</a>. TFT Touch Screen or 128x128 Grayscale Fast refresh OLED                         |        [dot218-TFTV2-touchScreen.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot218-TFTV2-touchScreen/dot218-TFTV2-touchScreen.ino)  or  [dot229-128x128-gray-oled.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot22-actuators/dot229-128x128-gray-oled/dot229-128x128-gray-oled.ino)                                                                                                                                                                    |       [<img src="https://img.youtube.com/vi/SvW3U7YzV0Y/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=SvW3U7YzV0Y&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=16)       |                           <img src="https://user-images.githubusercontent.com/5605614/235280870-60b51050-58c9-4494-a663-57518bee4e14.png" width = 200/>     <br>    Real Assignment: Presently the Touch Screen sensor is not reading completly to the edges of the screen, see if you can figure out why? Is it just the mapping of raw values to real values, the main resistor amount set at 300 ohms, the wire length. What is it? Fix it.    |
 | <a name="30" href="#30">`30`</a>.  LVGL Portenta Viewer on Full HD Screen   (Needs USB-C to HDMI adaptor)   Not yet working for my schools computer screens.                  |    Ambrose got this working wth both library versions 0.7 and 0.8 see code at [portenta-lvgl-8.3.6-ambrose.ino](https://github.com/VladTheImpaler32/robotics2023/blob/main/portenta-lvgl-8.3.6-ambrose/%20portenta-lvgl-8.3.6-ambrose.ino)                                                                                                                                                                          |           |                 |        |   This example [LVGL-counter](https://github.com/arduino-libraries/Arduino_Pro_Tutorials/blob/main/examples/Creating%20GUIs%20with%20LVGL/lvglCounter/lvglCounter.ino) Might work for you. I am waiting for a simple text and line drawing example  |
 | <a name="31" href="#31">`31`</a>.  PCB Board Build using [easyEDA](https://easyeda.com/)                                                                                                                                                                                                    |  Great starter tutorial to make a PCB with a battery holder, resistor and ligtht<br>   [<img src="https://img.youtube.com/vi/gjPNYMRA0m8/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=gjPNYMRA0m8&list=PLbKMtvtYbdPMZfzGuVTdc0MWKrFvU4nsu&index=2)      ||       I have found lots of PCB design videos that are either to complex or just long and boring. The video pressented here was not made by me but is very short and many of my animation students can follow it very quickly to make their own board using easyEDA   |
-| <a name="32" href="#32">`32`</a>. [JLCPCB](https://jlcpcb.com/) order board for Printing (Has a cost for 5 small boards ~$20 USD including shipping)                     |            Take the edit file from the above PCB build using [easyEDA](https://easyeda.com/) and produce the Gerber file ready for printing using [JLCPCB](https://jlcpcb.com/) My public school students do not have to do this step.        <details closed> <summary>Teacher Tips</summary>   This is really cool I like it so much </details> |
+| <a name="32" href="#32">`32`</a>. [JLCPCB](https://jlcpcb.com/) order board for Printing (Has a cost for 5 small boards ~$20 USD including shipping)                     |            Take the edit file from the above PCB build using [easyEDA](https://easyeda.com/) and produce the Gerber file ready for printing using [JLCPCB](https://jlcpcb.com/) My public school students do not have to do this step.         |
+
+
+
 
 
 
@@ -141,15 +144,15 @@ So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
-| <a name="0" href="0">`0`</a>.  []()   |      |     |     |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>.  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
 
