@@ -107,19 +107,17 @@ Ignore the numbers until things settle down.
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
-| <a name="1" href="1">`1`</a>   Login to [edgeimpulse.com](https://studio.edgeimpulse.com/login) and make a vision classification machine learning model using your cell phone, or laptop camera of 0-unknown, 1-pencil (or something of your choice)     |     [docs.edgeimpulse.com](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/espressif-esp32)              | This is a full playlist so many other videos here might help  [<img src="https://img.youtube.com/vi/wbX_-No8kIw/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=wbX_-No8kIw&list=PL57Dnr1H_egsQPnEObWHPhK1Q4g_IDWcR&index=7)              | This website is a good starting point [https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/). For this assignment we are not using the microcontroller.    <details closed> <summary>More Instructions</summary> Connect your cell phone to EdgeImpulse, take 30 images of pens on various background, take 50 images of various background, create your impulse (96 x 96), generate features, train and then switch to classification on your cell phone  </details> <details closed> <summary>ChatGPT Prompt</summary> Give me the steps to make a vision classification model on edgeimpulse.com with only an unknow label for the background and pens for the object. We will only be using our cell phone to collect the images, so it will need to be connected to the edgeimpulse site. the cell phone will allow the image labelling before I take the images. After the images are taken explain how to setup the impulse machine learning model.</details> |
+| <a name="1" href="1">`1`</a>   Login to [edgeimpulse.com](https://studio.edgeimpulse.com/login) and make a vision classification machine learning model using your cell phone, or laptop camera of 0-unknown, 1-pencil (or something of your choice)     |     [docs.edgeimpulse.com](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/espressif-esp32)              | This is a full playlist so many other videos here might help  [<img src="https://img.youtube.com/vi/wbX_-No8kIw/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=wbX_-No8kIw&list=PL57Dnr1H_egsQPnEObWHPhK1Q4g_IDWcR&index=7)              | This website is a good starting point [https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/). For this assignment we are not using the microcontroller.    <details closed> <summary>More Instructions</summary> Connect your cell phone to EdgeImpulse, take 30 images of pens on various background, take 50 images of various background, create your impulse (96 x 96), generate features, train and then switch to classification on your cell phone  </details> <details closed> <summary>ChatGPT Prompt</summary> Give me the steps to make a vision classification model on edgeimpulse.com with only an unknow label for the background and pens for the object. We will only be using our cell phone to collect the images, so it will need to be connected to the edgeimpulse site. The cell phone will allow the image labelling before I take the images. After the images are taken explain how to setup the impulse machine learning model.</details> |
 
 
 
 
-
-      Like all our assignments make a very short video proving you did the work. For Edge Impulse you would show your confusion matrix, feature explorer and an example classification of a pencil or not a pencil. (Or whatever you were testing)    |
 
 
 
 # One Day Conference
 
-| Topic | Example Code| Video | Instructions and Prompt|
+| Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
 | <a name="0" href="0">`0`</a>  Put the Vision model on the XiaoEsp32s  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Using your Cell Phone make a FOMO model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
@@ -132,7 +130,7 @@ Ignore the numbers until things settle down.
 
 # Second Day Conference
 
-| Topic | Example Code| Video | Instructions and Prompt|
+| Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
 | <a name="0" href="0">`0`</a> Camera to Micro SD Card to FOMO Model to XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
