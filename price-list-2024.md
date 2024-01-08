@@ -1,6 +1,9 @@
 
 
 
+# NOT YET UYPDATED FOR THE xIAOeSP32S AND RAK2270 MICROCONTROLLERS
+
+
 
 
 ## Minimal Price List for this Maker100 course updated with Products for 2024. 
