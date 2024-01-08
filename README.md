@@ -50,11 +50,18 @@ So
 
 3 x ($113.90 + $69) =  3 x $182.90   =   548.70        >      15 x $13.99 + 15 x $14.50 =     $209.85  + 217.50  =  $427.35
 
-3 x PortentaH7 + vision shield = $548.70 USD which is more than 15 x (XIAO-esp32s and RAK2270 ) = $427.35 USD
+3 x PortentaH7 + vision shield = $548.70 USD which is more than 15 x (XIAO-esp32s and RAK2270 ) = $427.35 USD 
+
+Note: the rak2270 will need a few ~$10 rigs to communicate over a serial monitor
 
 So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class set of 15 MCU of both types (XIAO-sense and RAK) that span my complete curriculum
 
 Probably a good idea to spend a bit of money purchasing the clips (rigs) for connecting the Sticker Trackers to serial ports.
+
+
+<hr>
+
+Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of PortentaH7's ($15 x $182.90) = $2743.50 USD
 
 </details>
 
