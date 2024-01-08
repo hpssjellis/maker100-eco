@@ -103,10 +103,9 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 
 ## Seeedstudio XiaoEsp32s Currciulum
 
-# THIS IS A DRAFT. MANY CHANGES WILL OCCUR between January and March 2024. THIS IS NOT YET READY AND NOT YET TESTED!
+##
+THIS IS A DRAFT AND NOT YET TESTED!
 
-
-Ignore the numbers until things settle down.
 
 
 # One Hour Conference Session
@@ -140,7 +139,7 @@ Ignore the numbers until things settle down.
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
 | <a name="0" href="0">`0`</a> XiaoEsp32s camera to micro SD card to FOMO model to XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  EdgeImpulse cell phone motion x,y,z model   |      |     | Do this for later in the course when we use the RAK2270StickerTracker to get an idea of what we are doing. If you have a motion sensor for the XiaoEsp32s-sense then you could upload this model to it but that is optional  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
@@ -203,18 +202,18 @@ Ignore the numbers until things settle down.
 
 
 
-## Advanced Course RakWireless RAK2270StickerTracker
+## Advanced Part of the Course, the RakWireless RAK2270StickerTracker
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
 | <a name="0" href="0">`0`</a>  RAK Read values  |      |     | Use the RAK rig and connect to the Arduino serial monitor to read all the present set LoRa and LoRaWan variables  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  (Optional) RAK2270StickerTracker trackpac.io setup   |      |     |  If you have the original RAK2270 Sticker Tracker with TrackPac.io then set it up and monitor your deivce <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  LoRa Test   |      |     | Your device should be able to send data to your tecahers device over a local P2P LoRa network <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  LoRaWan Test   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Run Temperature and humidity   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  LoRaWan Test   |      |     |  This get s confusing, but setup a full LoRaWan, Helium to Adafruit.io connection pipeline to read both the temperature and humidity data from teh Sticker Tracker  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Run xyz acceleration   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Sensor Fusion   |      |     | Run code with all the Sensors on the RAK2270: temperature, Humidity, 9 axis IMU: motion (xyz), gyro (xyz), magnetic (x,y,z)  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Machine learning motion x,y,z two label tinyML model   |      |     | This is advanced and uses the static website [tinyMLjs for the RAK2270StickerTracker](https://hpssjellis.github.io/tinyMLjs/public/acceleration/a00-best-acceleration-rak2270-sticker-tracker.html)  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
