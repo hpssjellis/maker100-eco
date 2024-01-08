@@ -34,9 +34,13 @@ Since schools spend a large amount of their budget on Computers, Laptops, iPads 
 
 <details closed> <summary>Useful Links</summary>
 
+
+
+SeeedStudio Link to the XiaoEsp32S3 Sense [here](https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html) Note: It needs headers soldered to do many of the assignments.
+
 RakWireless store to the ~15 USD [RAK2270 Sticker Tracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
 
-
+The original Maker100 Course is [here](https://github.com/hpssjellis/maker100)
 </details>
 
   
