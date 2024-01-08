@@ -45,11 +45,11 @@ and the [RAK2270 Developer](https://store.rakwireless.com/products/rak2270-rak-s
 So
 
 
-3 x ($113.90 + $69) =  548.70   >  15 x $13.99 + 15 x $14.50 =     $209.85  + 217.50  =  $427.35
+3 x ($113.90 + $69) =  3 x $182.90   =   548.70        >      15 x $13.99 + 15 x $14.50 =     $209.85  + 217.50  =  $427.35
 
-3 x PortentaH7 = $548.70 USD    and 15 (XIAO-esp32s and RAK2270 ) = $427.35
+3 x PortentaH7 + vision shield = $548.70 USD which is more than 15 x (XIAO-esp32s and RAK2270 ) = $427.35 USD
 
-So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class set of 15 MCU of both types (Xiao and RAK) that span my complete curriculum
+So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class set of 15 MCU of both types (XIAO-sense and RAK) that span my complete curriculum
 
 
 </details>
