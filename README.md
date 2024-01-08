@@ -70,7 +70,7 @@ Since schools spend a large amount of their budget on Computers, Laptops, iPads 
 
 ## Seeedstudio XiaoEsp32s Currciulum
 
-# THIS IS A DRAFT. MANY CHSANGES WILL OCCUR. THIS IS NOT YET READY OR TESTED!
+# THIS IS A DRAFT. MANY CHANGES WILL OCCUR between January and March 2024. THIS IS NOT YET READY AND NOT YET TESTED!
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
