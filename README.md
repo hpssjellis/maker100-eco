@@ -138,8 +138,6 @@ So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a>.    Login to [edgeimpulse.com](https://studio.edgeimpulse.com/login)    |     [docs.edgeimpulse.com](https://docs.edgeimpulse.com/docs/arduino-portenta-h7)              |     |     |
-
 | <a name="0" href="0">`0`</a>.  []()   |      |     |     |
 | <a name="0" href="0">`0`</a>.  []()   |      |     |     |
 | <a name="0" href="0">`0`</a>.  []()   |      |     |     |
