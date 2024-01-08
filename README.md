@@ -1,6 +1,6 @@
 ## Maker100-Eco
 
-An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
+An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course this time using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
 
 
 Views better using the README.md [here](README.md)
@@ -31,6 +31,28 @@ The arduino PortentaH7 with LoRa Vision Shield is an encredible TinyML device th
 Since schools spend a large amount of their budget on Computers, Laptops, iPads and the technology to integrate them safely with the internet I feel that any method technology teachers can do to reduce costs is good for the entire educational system.
 </details>
 
+
+<details closed> <summary>How much cheaper is the Eco version</summary>
+
+The [Arduino PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) costs $113.90 USD the [LoRa Vision Shield](https://store-usa.arduino.cc/products/arduino-portenta-vision-shield-lora%C2%AE) Costs $69 USD
+
+
+The [XiaoEsp32s-sense](https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html)  costs $13.99
+
+and the [RAK2270 Developer](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046273286342) costs $14.50 USD
+
+
+So
+
+
+3 x ($113.90 + $69) =  548.70   >  15 x $13.99 + 15 x $14.50 =     $209.85  + 217.50  =  $427.35
+
+3 x PortentaH7 = $548.70 USD    and 15 (XIAO-esp32s and RAK2270 ) = $427.35
+
+So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class set of 15 MCU of both types (Xiao and RAK) that span my complete curriculum
+
+
+</details>
 
 <details closed> <summary>Useful Links</summary>
 
