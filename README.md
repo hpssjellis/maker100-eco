@@ -161,11 +161,10 @@ THIS IS A DRAFT AND NOT YET TESTED!
 
 
 
-# The rest of the In-Person Course
+# In-Person Course
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
-
 | <a name="0" href="#0">`0`</a> Analog Read (Voltage divider for various 2 prong sensors (variable resistors: flex sensor, photoresistor, touch/pressure sensor))                |  [dot211-any-variable-resistor-sensor.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot211-any-variable-resistor-sensor/dot211-any-variable-resistor-sensor.ino)                                                                                                                                                                            |       [<img src="https://img.youtube.com/vi/GR3D8C6dOl8/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=GR3D8C6dOl8&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=3)            |                 Change the Resistor amount and which resistor is attached to 3V3 to get the largest most sensible range of readings.     |
 | <a name="0" href="#0">`0`</a> DAC to ADC                         |       [dot1a-DAC-to-ADC.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot1a-DAC-to-ADC/dot1a-DAC-to-ADC.ino)                                                                                                                                                                       |    [<img src="https://img.youtube.com/vi/PWtQeHqyDUM/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=PWtQeHqyDUM&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=8)            |                    Estimate the Voltage that the digital pin converts from 0 to 1, it should be close to half of 3V3     |
 
