@@ -207,11 +207,13 @@ Ignore the numbers until things settle down.
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  RAK Read values  |      |     | Use the RAK rig and connect to the Arduino serial monitor to read all the present set LoRa and LoRaWan variables  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  (Optional) RAK2270StickerTracker trackpac.io setup   |      |     |  If you have the original RAK2270 Sticker Tracker with TrackPac.io then set it up and monitor your deivce <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  LoRa Test   |      |     | Your device should be able to send data to your tecahers device over a local P2P LoRa network <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  LoRaWan Test   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Run Temperature and humidity   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Run xyz acceleration   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Sensor Fusion   |      |     | Run code with all the Sensors on the RAK2270: temperature, Humidity, 9 axis IMU: motion (xyz), gyro (xyz), magnetic (x,y,z)  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
