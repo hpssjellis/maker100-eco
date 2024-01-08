@@ -3,7 +3,7 @@
 An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
 
 
-
+Views better using the README.md [here](README.md)
 
 
 <span class="tree"> 
