@@ -34,6 +34,9 @@ Since schools spend a large amount of their budget on Computers, Laptops, iPads 
 
 <details closed> <summary>Useful Links</summary>
 
+RakWireless store to the ~15 USD [RAK2270 Sticker Tracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
+
+
 </details>
 
   
