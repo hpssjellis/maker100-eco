@@ -54,6 +54,7 @@ So
 
 So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class set of 15 MCU of both types (XIAO-sense and RAK) that span my complete curriculum
 
+Probably a good idea to spend a bit of money purchasing the clips (rigs) for connecting the Sticker Trackers to serial ports.
 
 </details>
 
@@ -116,11 +117,24 @@ Ignore the numbers until things settle down.
 
 
 
-# Two Day Conference
+# One Day Conference
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
+| <a name="0" href="0">`0`</a>  Put the Vision model on the XiaoEsp32s  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Using your Cell Phone make a FOMO model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Put the FOMO model on the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Using Your Cell Phone make a Sound Model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Put the sound model on Your XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  (optional) Try the Edgeimpulse connection method  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
+
+
+# Second Day Conference
+
+| Topic | Example Code| Video | Instructions and Prompt|
+|:---|:---|:---|:---|
+| <a name="0" href="0">`0`</a> Camera to Micro SD Card to FOMO Model to XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
@@ -137,7 +151,10 @@ Ignore the numbers until things settle down.
 
 
 
-# In-Person Course
+
+
+
+# The rest of the In-Person Course
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
