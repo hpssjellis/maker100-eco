@@ -36,15 +36,20 @@ Since schools spend a large amount of their budget on Computers, Laptops, iPads 
 
 
 <ol>
-<li>SeeedStudio Link to the XiaoEsp32S3 Sense [here](https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html) Note: It needs headers soldered to do many of the assignments.
 
-<li>RakWireless store to the ~15 USD [RAK2270 Sticker Tracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
+<li>The original Maker100 Course is https://github.com/hpssjellis/maker100 </li>
 
-<li>The original Maker100 Course is [here](https://github.com/hpssjellis/maker100)
+  
+<li>SeeedStudio Link to the XiaoEsp32S3 Sense store https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html     Note: It needs headers soldered to do many of the assignments. </li>
 
-<li>The original XiaoEsp32s and RAK2270 research is [here](https://github.com/hpssjellis/mcu-stable-edu-launch)</li>
-<li>TinyMLjs is [here](https://github.com/hpssjellis/tinyMLjs)</li>
-<li>RocksettaTinyML Library is [here](https://github.com/hpssjellis/RocksettaTinyML)</li>
+<li>RakWireless ~$15 USD RAK2270 Sticker Tracker   store is at  https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) </li>
+
+
+<li>The original XiaoEsp32s and RAK2270 research is at https://github.com/hpssjellis/mcu-stable-edu-launch</li>
+
+<li>TinyMLjs is at https://github.com/hpssjellis/tinyMLjs</li>
+
+<li>RocksettaTinyML Library is at https://github.com/hpssjellis/RocksettaTinyML</li>
 
 </ol>
 </details>
