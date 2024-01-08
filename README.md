@@ -119,7 +119,7 @@ Ignore the numbers until things settle down.
 
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a>  Put the Vision model on the XiaoEsp32s  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Put the one hour conference Vision model on the XiaoEsp32s  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Using your Cell Phone make a FOMO model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Put the FOMO model on the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Using Your Cell Phone make a Sound Model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
