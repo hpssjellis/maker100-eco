@@ -127,11 +127,11 @@ Ignore the numbers until things settle down.
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
 | <a name="0" href="0">`0`</a>  Put the one hour conference Vision model on the XiaoEsp32s  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  Using your Cell Phone make a FOMO model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  Put the FOMO model on the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  Using Your Cell Phone make a Sound Model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  Put the sound model on Your XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  (optional) Try the Edgeimpulse connection method  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Using your cell phone to make a FOMO model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Put the FOMO model onto the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Use your cell phone to make a Sound Model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Put the sound model onto your XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  (optional) Try the Edgeimpulse connection method  |   [edgeimpulse.com](https://studio.edgeimpulse.com/login)      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
 
@@ -139,7 +139,7 @@ Ignore the numbers until things settle down.
 
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a> Camera to Micro SD Card to FOMO Model to XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a> XiaoEsp32s camera to micro SD card to FOMO model to XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
