@@ -111,7 +111,7 @@ THIS IS A DRAFT AND NOT YET TESTED!
 
 
 
-# One Hour Conference Session using the XiaoEsp32s3-sense
+# One Hour Session using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 
 
@@ -124,7 +124,7 @@ Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 
 
 
-
+<br><br><br>
 # One Day Conference using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 
@@ -138,7 +138,7 @@ Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 | <a name="0" href="0">`0`</a>  (optional) Try the Edgeimpulse connection method  |   [edgeimpulse.com](https://studio.edgeimpulse.com/login)      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
-
+<br><br><br>
 # Second Day Conference using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 
@@ -158,7 +158,7 @@ Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 
 
 
-
+<br><br><br>
 ## IoT part of the in-preson course using the XiaoEsp32s3-sense
 Note: soldered headers not needed yet
 
@@ -177,7 +177,7 @@ Note: soldered headers not needed yet
 
 
 
-
+<br><br><br>
 # In-Person Course on Sensors using the XiaoEsp32s3-sense
 Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
@@ -185,7 +185,6 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 |:---|:---|:---|:---|
 | <a name="0" href="#0">`0`</a> Analog Read (Voltage divider for various 2 prong sensors (variable resistors: flex sensor, photoresistor, touch/pressure sensor))                |  [dot211-any-variable-resistor-sensor.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot211-any-variable-resistor-sensor/dot211-any-variable-resistor-sensor.ino)                                                                                                                                                                            |       [<img src="https://img.youtube.com/vi/GR3D8C6dOl8/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=GR3D8C6dOl8&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=3)            |                 Change the Resistor amount and which resistor is attached to 3V3 to get the largest most sensible range of readings.     |
 | <a name="0" href="#0">`0`</a> DAC to ADC                         |       [dot1a-DAC-to-ADC.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot1a-DAC-to-ADC/dot1a-DAC-to-ADC.ino)                                                                                                                                                                       |    [<img src="https://img.youtube.com/vi/PWtQeHqyDUM/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=PWtQeHqyDUM&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=8)            |                    Estimate the Voltage that the digital pin converts from 0 to 1, it should be close to half of 3V3     |
-
 | <a name="0" href="#0">`0`</a>  Serial SPI Pixy2                          |           [dot212-pixy2-SPI.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot212-pixy2-SPI/dot212-pixy2-SPI.ino)  Note: Dot212 Pixy example using the Portenta pro community solutions library will be pre-setup with the pixy include files!                                                                                                                                                                 |       [<img src="https://img.youtube.com/vi/p8KmFFqqU6U/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=p8KmFFqqU6U&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=14)              |                 <img src="media/pixy-connector.png" width = 200/>     <br>    The Pixy2 is so cool students will have no problem coming up with things to detect. The Pixy2 is really good for a final project since students just need to connect an actuator. Example: when you see the "orange" cat have a servo open a lever to feed it.    
 | <a name="0" href="#0">`0`</a> Serial UART FingerPrintScanner-FPS (Video not ready)              |               [dot216-fingerprint-scanner](https://github.com/hpssjellis/portenta-pro-community-solutions/tree/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot216-fingerprint-scanner) | | Ask the teacher about this sensor |
 | <a name="0" href="#0">`0`</a> GPS                           |         [dot215-grove-gps-air530.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot215-grove-gps-air530/dot215-grove-gps-air530.ino)  Only proof of connection.                                                                                                                                                                    |               |                  Try https://www.gpsvisualizer.com/ with the data saved with .GPS extension         Real Assignment: Parse the output for Latitude, Longitude, date time and height, perhaps use: TinyGPS, TinyGPS++, TinyGPSPLUS, NeoGPS libraries.  Then paste your latitude, longnitude into this url  /maps?q=lat,lon example: http://maps.google.com/maps?q=62.44,-114.4  for Yellowknife Canada |
@@ -193,7 +192,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 | <a name="0" href="#0">`0`</a> Range-Finder                          |      [dot214-RangeFinder.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot214-RangeFinder/dot214-RangeFinder.ino)     |     [<img src="https://img.youtube.com/vi/E1B_iE171E8/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=E1B_iE171E8&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=13) |  For this assignment a variable in the code can be changed to make the range finder work at a greater distance.  |
 
 
-
+<br><br><br>
 # In-Person Course on Actuators using the XiaoEsp32s3-sense
 Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
@@ -221,7 +220,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 
 
-
+<br><br><br>
 ## Advanced Part of the Course, the RakWireless LoRa/LoRaWan RAK2270StickerTracker
 
 | Topic | Example Code| Video | Instructions |
@@ -242,7 +241,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 
 
-
+<br><br><br>
 ## Final Course Projects (Student must complete an individual final project to pass my in-person course)
 
 | Topic | Example Code| Video | Instructions |
@@ -252,7 +251,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 | <a name="0" href="0">`0`</a>  complex sensor, ML, actuator Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Group Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
-
+<br><br><br>
 ## From the original [maker100](https://github.com/hpssjellis/maker100) course but not able to do with this course
 
 | Topic | Example Code| Video | Instructions |
@@ -261,12 +260,15 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 
 
-
+<br><br><br>
 ## XIAO esp32s3-sense  Pinout Diagram
 
 
 
  <img src="https://github.com/hpssjellis/maker100-eco/assets/5605614/c818e03f-562f-40df-8726-f0e5d5903596" width = "100%" /> 
+<br><br><br>
+
+
 
 ## RAK2270 Sticker Tracker Pinout Diagram
 
@@ -279,6 +281,6 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
  
 #### Jeremy Ellis, ex: Rocksetta now <a href="https://ca.linkedin.com/in/jeremy-ellis-4237a9bb">LinkedIn</a>
-#### High SChool Coding (35 Years), Robotics, web Design, Animation and 3D Printing Teacher, BC Canada
+#### High School Coding (35 Years), Robotics, web Design, Animation and 3D Printing Teacher, BC Canada
 #### Use this course at your own risk!
 
