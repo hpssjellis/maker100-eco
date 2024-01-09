@@ -9,11 +9,9 @@ This is not an online course, it is expected to be taught by a teacher or profes
 
 Price list for the equipment I will be using in 2024 [price-list-2024.md](price-list-2024.md) (Many other devices could be used but the videos then will not be accurate for those devices)
 
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
+<br><br><br>
+<hr />
 
-<hr >
-
-<span class="tree"> 
 
 <details closed> <summary>Teacher Tips</summary>
 <ol>
@@ -34,7 +32,8 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
 
 </details>
 
-<hr style="background-color:orange; color:yellow;">
+<br><br><br>
+<hr />
 
 <details closed> <summary>Why Maker100-Eco?</summary>
 The arduino PortentaH7 with LoRa Vision Shield is an encredible TinyML device that can do amazing things and has been a joy to teach, but I am part of an international group trying to bring tinyML to the students in developing countries called [tinyML4D](https://tinyml.seas.harvard.edu/team) and the Arduino PortentaH7 is just too expensive for student explorations. 
@@ -42,7 +41,8 @@ The arduino PortentaH7 with LoRa Vision Shield is an encredible TinyML device th
 Since schools spend a large amount of their budget on Computers, Laptops, iPads and the technology to integrate them safely with the internet I feel that any method technology teachers can do to reduce costs is good for the entire educational system.
 </details>
 
-<hr style="background-color:green; color:green;">
+<br><br><br>
+<hr />
 <details closed> <summary>How much cheaper is the Eco version</summary>
 
 The [Arduino PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) costs $113.90 USD the [LoRa Vision Shield](https://store-usa.arduino.cc/products/arduino-portenta-vision-shield-lora%C2%AE) Costs $69 USD
@@ -73,6 +73,11 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 
 </details>
 
+
+<br><br><br>
+<hr />
+
+
 <details closed> <summary>Useful Links</summary>
 
 
@@ -96,7 +101,8 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 </details>
 
   
-</span>  <!-- End span class=tree  -->
+<br><br><br>
+<hr />
 
 
 
