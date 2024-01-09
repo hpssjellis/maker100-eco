@@ -262,17 +262,10 @@ This part of the course is much more challenging than the above. Some teachers m
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a>  Simple 1 sensor 1 actuator Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  complex sensor, ML, actuator Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  Group Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  One sensor with one actuator final project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  complex sensor, ML, actuator final project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  group final project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
-<br><br><br>
-## From the original [maker100](https://github.com/hpssjellis/maker100) course but not able to do with this course since we do not have the hardware.
-
-| Topic | Example Code| Video | Instructions |
-|:---|:---|:---|:---|
-| <a name="0" href="#0">`0`</a> Ethernet-Vision-Shield  (need router acces to make global)                         |      [dot311-ethernet-webServer.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot3-portenta-vision-shields/dot31-ethernet-specific/dot311-ethernet-webServer/dot311-ethernet-webServer.ino)   |      [<img src="https://img.youtube.com/vi/g35_OWJNgiI/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=g35_OWJNgiI&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=12)          |                Same as WiFi  might be difficult to get an outside line. While on the same local network things should work great. At home will have to configure your router to allow outside access. At school good luck.   |
-| <a name="0" href="#0">`0`</a>  LVGL Portenta Viewer on Full HD Screen   (Needs USB-C to HDMI adaptor)   Not yet working for my schools computer screens.                  |    Ambrose got this working wth both library versions 0.7 and 0.8 see code at [portenta-lvgl-8.3.6-ambrose.ino](https://github.com/VladTheImpaler32/robotics2023/blob/main/portenta-lvgl-8.3.6-ambrose/%20portenta-lvgl-8.3.6-ambrose.ino)                                                                                                                                                                          |           |                 |        |   This example [LVGL-counter](https://github.com/arduino-libraries/Arduino_Pro_Tutorials/blob/main/examples/Creating%20GUIs%20with%20LVGL/lvglCounter/lvglCounter.ino) Might work for you. I am waiting for a simple text and line drawing example  |
 
 
 
