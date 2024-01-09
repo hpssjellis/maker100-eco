@@ -16,7 +16,7 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
   <li> Students work on term assignments in partners and make very short videos that teache what they did for each assignment.</li>
   <li>I expect all students to try to improve and change each assignment. "Until you change computer code do not expect to understand it"</li>
   <li>I expect all students to draw circuit diagrams before connecting wires and have someone check the diagram and then to connectr the wires and have someone also check before stuidents connect power or connect to the computer.</li>
-  <li>I teach one assignment per class but expect several students to work ahead and solve missing parts of the prossess in small groups</li>
+  <li>I teach one assignment per class but expect several students to work ahead and solve missing parts of the prossess in small groups, also some students will fall behind, this allows us to have fewer sensors and actuators since the class rarely uses them at the same time. I can often get away with 4 sensors for an entire 30 person class</li>
   <li>The faster students finish the course the more time they have for their final projects</li> 
   <li>To pass the course everyone must complete at least one final project using a sensor connected to an actuator of their choice</li>
   <li> Students plan 2 individual main projects and possibly one group project. Each main project must include at least one sensor with one actuator</li>
