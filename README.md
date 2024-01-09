@@ -251,7 +251,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 | <a name="0" href="0">`0`</a>  Group Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 <br><br><br>
-## From the original [maker100](https://github.com/hpssjellis/maker100) course but not able to do with this course
+## From the original [maker100](https://github.com/hpssjellis/maker100) course but not able to do with this course since the hardware does not run Ethernet
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
@@ -280,6 +280,6 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
  
 #### Jeremy Ellis, ex: Rocksetta now <a href="https://ca.linkedin.com/in/jeremy-ellis-4237a9bb">LinkedIn</a>
-#### High School Coding (35 Years), Robotics, web Design, Animation and 3D Printing Teacher, BC Canada
-#### Use this course at your own risk!
+#### High School Coding (35 Years), Robotics, Web Design, Animation and 3D Printing Teacher, BC Canada
+#### Use this in-person course at your own risk!
 
