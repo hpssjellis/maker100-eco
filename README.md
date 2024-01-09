@@ -140,7 +140,7 @@ Note: soldered headers not needed, but a USB-C cable and computer or laptop to r
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
-| - [ ] <a name="0" href="0">`0`</a>  Follow the Sensecraft Vision example  |   [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/)   |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| - [ ] <a name="0" href="0">`0`</a>  Follow the Sensecraft Vision example  |  - [x]  [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/)   |   - [x]   |   - [ ] <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
 
