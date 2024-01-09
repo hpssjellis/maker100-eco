@@ -123,7 +123,9 @@ THIS IS A DRAFT AND NOT YET TESTED!
 
 For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed. 
 
- [x] has been tested on the relevant device. This might take a while to transfer the entire course.
+ - [x] has been tested on the relevant device. This might take a while to transfer the entire course.
+
+ - [ ] Means not yet tested or just plain old Portenta code
 
 
   
