@@ -9,12 +9,9 @@ This is not an online course, it is expected to be taught by a teacher or profes
 
 Price list for the equipment I will be using in 2024 [price-list-2024.md](price-list-2024.md) (Many other devices could be used but the videos then will not be accurate for those devices)
 
-<hr width="500px;" color="red" size="10"> 
+<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
 
-
-
-
-<hr style="background-color:red; color:blue;">
+<hr >
 
 <span class="tree"> 
 
