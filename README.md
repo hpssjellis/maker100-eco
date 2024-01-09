@@ -119,11 +119,13 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 
 ##
 THIS IS A DRAFT AND NOT YET TESTED!
-The box will be checked when the activity is tested and the boxes eventually will be removed. 
+
+
+For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed. 
 
 <input type=checkbox CHECKED>
 
-
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
 
 # One Hour Session using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a cell phone or webCam laptop is needed
