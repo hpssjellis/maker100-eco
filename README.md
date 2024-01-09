@@ -130,7 +130,7 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 ##
 THIS IS A DRAFT AND NOT YET TESTED!
 
-
+<hr>
 For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed. 
 
  - [x] has been tested on the relevant device. This might take a while to transfer the entire course.
@@ -146,13 +146,21 @@ For each row the checkbox will be checked when the activity is tested and the bo
 
 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
 
-# One Hour Session using the XiaoEsp32s3-sense
-Note: soldered headers not needed, but a USB-C cable and computer or laptop to run the code is needed
 
-- [x]
+&#9745;
+
+
+
+<hr>
+
+
+
+
+# One Hour Session using the XiaoEsp32s3-sense
+Note: soldered headers not needed, but a USB-C cable and computer or laptop to run the code is neede
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a>  Follow the Sensecraft Vision example  |  [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/)   |   |    <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+|<input type=checkbox CHECKED> <a name="0" href="0">`0`</a>  Follow the Sensecraft Vision example  |  [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/)   |   |    <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
 
@@ -161,7 +169,7 @@ Note: soldered headers not needed, but a USB-C cable and computer or laptop to r
 
 <br><br><br>
 
-- [ ]
+
 # One Day Conference using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a cell phone or webCam laptop is needed, along with a usb-C cable
 
