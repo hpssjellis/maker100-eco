@@ -145,7 +145,7 @@ For each row the checkbox will be checked when the activity is tested and the bo
 
 
 
-# One Hour Session using the XiaoEsp32s3-sense
+# Example One Hour Session using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a USB-C cable and computer or laptop to run the code is neede
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
@@ -160,7 +160,8 @@ Note: soldered headers not needed, but a USB-C cable and computer or laptop to r
 
 
 # One Day Conference using the XiaoEsp32s3-sense
-Note: soldered headers not needed, but a cell phone or webCam laptop is needed, along with a usb-C cable
+Note: soldered headers are not needed, but a cell phone or webCam laptop is needed, along with a usb-C to USB-A cable
+Students are encouraged to work ahead.
 
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
@@ -181,7 +182,8 @@ Note: soldered headers not needed, but a cell phone or webCam laptop is needed, 
 
 <br><br><br>
 # Second Day Conference using the XiaoEsp32s3-sense
-Note: soldered headers not needed, but a cell phone or webCam laptop is needed, along with a usb-C cable and a micro sd-card
+Note: soldered headers not needed, but a cell phone or webCam laptop is needed, along with a USB-C to USB-A cable and a micro sd-card
+Students are encouraged to work ahead.
 
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
@@ -204,6 +206,7 @@ Note: For the 2nd day of a conference users without soldered pins may want to tr
 <br><br><br>
 # In-Person Course on Sensors using the XiaoEsp32s3-sense
 Note: soldered headers are now needed on the XiaoEsp32s3-sense
+Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
@@ -228,6 +231,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 <br><br><br>
 # In-Person Course on Actuators using the XiaoEsp32s3-sense
 Note: soldered headers are now needed on the XiaoEsp32s3-sense
+Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
@@ -243,6 +247,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 <br><br><br>
 # In-Person Course on OLED Actuators using the XiaoEsp32s3-sense
 Note: soldered headers are now needed on the XiaoEsp32s3-sense
+Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
@@ -258,6 +263,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 <br><br><br>
 ## IoT part of the in-person course using the XiaoEsp32s3-sense
 Note: soldered headers not needed (this part of the course could be done earlier)
+Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
@@ -281,7 +287,7 @@ This part of the course is much more challenging than the above. Some teachers m
 
 
 
-# One Hour Session about the RAK2270StickerTracker
+# Example One Hour Session about the RAK2270StickerTracker
 Note: The actual sticker tracker would not be needed for a one hour session
 
 | Topic | Example Code| Video | Instructions and Prompt|
@@ -310,10 +316,10 @@ Needs testing, might need a Linux computer to run the ML programs.
 
 
 ## In-person course using the RAK2270StickerTracker
+Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-
 | &#9744;  <a name="0" href="0">`0`</a>  LoRa Test   |      |     | Your device should be able to send data to your tecahers device over a local P2P LoRa network <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="0">`0`</a>  Run Temperature and humidity   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="0">`0`</a>  LoRaWan Test   |      |     |  This get s confusing, but setup a full LoRaWan, Helium to Adafruit.io connection pipeline to read both the temperature and humidity data from teh Sticker Tracker  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
@@ -328,7 +334,7 @@ Needs testing, might need a Linux computer to run the ML programs.
 
 
 <br><br><br>
-## Final Course Projects (Student must complete an individual final project to pass my in-person course)
+## Final Course Projects (Student must complete an individual final project to pass my in-person course, your teacher might havwe different ideas)
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
@@ -340,7 +346,7 @@ Needs testing, might need a Linux computer to run the ML programs.
 
 
 <br><br><br>
-## View the [maker100](https://github.com/hpssjellis/maker100#latest-portenta-pinout) course for the Portenta Pinout Diagram
+## View the old [maker100](https://github.com/hpssjellis/maker100#latest-portenta-pinout) course for the Portenta Pinout Diagram
 <br><br><br>
 
 ## XIAO esp32s3-sense  Pinout Diagram
