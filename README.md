@@ -147,9 +147,9 @@ For each row the checkbox will be checked when the activity is tested and the bo
 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
 
 
-&#9745;
+&#9745; has been tested on the relevant device. This might take a while to transfer the entire course.
 
-
+&#9744;  Means not yet tested or just plain old Portenta code
 
 <hr>
 
@@ -160,7 +160,7 @@ For each row the checkbox will be checked when the activity is tested and the bo
 Note: soldered headers not needed, but a USB-C cable and computer or laptop to run the code is neede
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
-|<input type=checkbox CHECKED> <a name="0" href="0">`0`</a>  Follow the Sensecraft Vision example  |  [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/)   |   |    <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| &#9745; <a name="0" href="0">`0`</a>  Follow the Sensecraft Vision example  |  [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/)   |   |    <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
 
