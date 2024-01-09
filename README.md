@@ -1,10 +1,13 @@
 ## Maker100-Eco
 
-An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course this time using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
+An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course this time using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the course basics and some [EdgeImpulse.com](https://edgeimpulse.com/) Machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the LoRa/LoRaWan and Motion (x,y,z) machine learning using [tinyMLjs](https://hpssjellis.github.io/tinyMLjs/public/index.html) a static webpage webSerial Machine Learning method
 
 
 Views better using the README.md [here](README.md)
 
+This is not an online course, it is expected to be taught by a teacher or professor. Some students might be able to  do the course on their own, but many components of learning opportunities may be missed.
+
+Price list for the equipment I will be using in 2024 [price-list-2024.md](price-list-2024.md) (Many other devices could be used but the videos then will not be accurate for those devices)
 
 <span class="tree"> 
 
@@ -181,6 +184,14 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 | <a name="0" href="#0">`0`</a> Accelerometer                           |      Just load MKRIMU library and run the accelerometer example. Note bend the reset pin on the MKR IMU, When that is working login to edgeimpulse and make a motion model using your cell phone, to detect a wave. Then download it to the Portenta and get the onboard LED working when you wave.                                                                                                                                                                      |        |           You can do this all on your own. connect the MKR IMU to the portenta then lookup how to do the example. Note: bend the reset pin of the MKR IMU away from connecting to the Portenta. Causes issues.                          |
 | <a name="0" href="#0">`0`</a> FSLP-Touch  (Video not ready)                         |       [dot217-FSLP.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot217-FSLP/dot217-FSLP.ino)  |   |  Room for research here. This sensor has always given students problems.   This chart helps<br> <img src="https://user-images.githubusercontent.com/5605614/222784709-aaf74262-abcc-4c50-8058-feceae5229f4.png" width = 200/> |  
 | <a name="0" href="#0">`0`</a> Range-Finder                          |      [dot214-RangeFinder.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot214-RangeFinder/dot214-RangeFinder.ino)     |     [<img src="https://img.youtube.com/vi/E1B_iE171E8/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=E1B_iE171E8&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=13) |  For this assignment a variable in the code can be changed to make the range finder work at a greater distance.  |
+
+
+
+# In-Person Course on Actuators using the XiaoEsp32s3-sense
+Note: soldered headers are now needed on the XiaoEsp32s3-sense
+
+| Topic | Example Code| Video | Instructions and Prompt|
+|:---|:---|:---|:---|
 | <a name="0" href="#0">`0`</a> Serial-putty          | This is a program to load on your computer that replaces the arduino serial monitor           |      |      Fairly easy once putty is installed. Load power shell and type mode with your Portenta programmed with a serial monitor program find the port. Then switch to Serial on Putty and Correct the COM port. Open and see if you can see serial output from the Portenta        |
 | <a name="0" href="#0">`0`</a> Web-AdafruitIO-Connectivity                        |   [adafruit login](https://accounts.adafruit.com/users/sign_in)  <br> <br> Record your user name and access key. Both the browser web socket and the Arduino MQTT program use those values. <br><br>  MQTT-Websocket [ada-websocket02.html](https://hpssjellis.github.io/my-examples-of-iot-platforms/public/ada-websocket02.html) <br> With Arduino MQTT Portenta code  [dot184-mqtt-client-to-adafruit.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot18-wifi-webserver/dot184-mqtt-client-to-adafruit/dot184-mqtt-client-to-adafruit.ino)<br> <br> The MQTT library to install was written by Joel Gaehwiler is is way down on the list  <br><br>Arduino https uses webhooks but might not work due to changes in the arduino code [dot183-https-to-adafruit.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot18-wifi-webserver/dot183-https-to-adafruit/dot183-https-to-adafruit.ino)       |   Everything will be at this website <a href="https://hpssjellis.github.io/my-examples-of-iot-platforms/public/index.html">Adafruit-Connectivity</a>      | This is a good but large project. A lot for students to learn here |
 | <a name="0" href="#0">`0`</a> Ethernet-Vision-Shield  (need router acces to make global)                         |      [dot311-ethernet-webServer.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot3-portenta-vision-shields/dot31-ethernet-specific/dot311-ethernet-webServer/dot311-ethernet-webServer.ino)   |      [<img src="https://img.youtube.com/vi/g35_OWJNgiI/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=g35_OWJNgiI&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=12)          |                Same as WiFi  might be difficult to get an outside line. While on the same local network things should work great. At home will have to configure your router to allow outside access. At school good luck.   |
@@ -203,7 +214,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 
 
-## Advanced Part of the Course, the RakWireless RAK2270StickerTracker
+## Advanced Part of the Course, the RakWireless LoRa/LoRaWan RAK2270StickerTracker
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
