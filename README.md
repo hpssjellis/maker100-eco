@@ -137,7 +137,7 @@ For each row the checkbox will be checked when the activity is tested and the bo
 
  - [ ] Means not yet tested or just plain old Portenta code
 
-
+<h3>U+2713 HTML</h3>
   
 
 <input type=checkbox CHECKED>
@@ -320,8 +320,8 @@ Needs testing, might need a Linux computer to run the ML programs.
 | <a name="0" href="0">`0`</a>  Run xyz acceleration   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Sensor Fusion   |      |     | Run code with all the Sensors on the RAK2270: temperature, Humidity, 9 axis IMU: motion (xyz), gyro (xyz), magnetic (x,y,z)  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="#0">`0`</a> LoRaWan-Helium-MQTT-Adafruit (easier)                           |     [dot334-us915-helium-mqtt-adafruit-connect.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot3-portenta-vision-shields/dot33-lorawan-specific/dot334-us915-helium-mqtt-adafruit-connect/dot334-us915-helium-mqtt-adafruit-connect.ino)                |                    | <li> Check the Helium coverage map for your area [here](https://explorer.helium.com/)  <li> load libraries MKRWAN and cayenneLPP<li> Run the MKRWAN examples MKRWANUpdate_standalone to make sure the LoRaWan device is updated and active<li> Run the [dot333-helium-us915-cayenne-timer.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot3-portenta-vision-shields/dot33-lorawan-specific/dot333-helium-us915-cayenne-timer/dot333-helium-us915-cayenne-timer.ino)  program with no information entered to get the Device EUI<li>Setup the Helium side: https://console.helium.com/ for what it does with the data. Add a new device and replace the given Device_EUI with the one above. Enter the other 2 values given from Helium into your sketch. The App_eui and the longer App_key. Run the program and open the Serial monitor<li> On Helium devices click the debug black icon and see if data is incoming<li> Login to [io.adafruit.com/](https://io.adafruit.com/) and collect your username and myKey to auto make a Helium-adafruit Integration. It will auto format it like the following ```mqtts://username:myKey@adafruit.io:8883``` Give your integration a number <li> In Helium flows connect the device--> function cayenneLPP --> adafruit<li> Check debug for data then Adafruit feeds for data.<li> Good luck. I use the https://io.adafruit.com/ MQTT with Cayenne encoding, but lots of other options out there.     |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Easy Pins test  |      |     |  Use the rak clip to access a few of the pins on the RAK2270 to see if you can program thme <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Hard pins test   |      |     | Solder wires to the pads on the rak2270 and do some pin testing like you would for an Arduino  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
