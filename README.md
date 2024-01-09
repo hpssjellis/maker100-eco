@@ -32,7 +32,7 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
 
 </details>
 
-<br><br><br>
+<br>
 <hr />
 
 <details closed> <summary>Why Maker100-Eco?</summary>
@@ -41,7 +41,7 @@ The arduino PortentaH7 with LoRa Vision Shield is an encredible TinyML device th
 Since schools spend a large amount of their budget on Computers, Laptops, iPads and the technology to integrate them safely with the internet I feel that any method technology teachers can do to reduce costs is good for the entire educational system.
 </details>
 
-<br><br><br>
+<br>
 <hr />
 <details closed> <summary>How much cheaper is the Eco version</summary>
 
@@ -74,7 +74,7 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 </details>
 
 
-<br><br><br>
+<br>
 <hr />
 
 
@@ -101,7 +101,7 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 </details>
 
   
-<br><br><br>
+<br>
 <hr />
 
 
