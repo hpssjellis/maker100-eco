@@ -138,6 +138,8 @@ For each row the checkbox will be checked when the activity is tested and the bo
  - [ ] Means not yet tested or just plain old Portenta code
 
 <h3>U+2713 HTML</h3>
+
+  <span style="font-family: wingdings; font-size: 200%;">&#252;</span>
   
 
 <input type=checkbox CHECKED>
