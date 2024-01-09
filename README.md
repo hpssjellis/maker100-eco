@@ -151,6 +151,10 @@ Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 | <a name="0" href="#0">`0`</a> Edge-Impulse-Vision-FOMO                          |      Use the Vision grayscale OLED from above and the [dot5148-advanced-fomo-individual-count](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot5-portenta-machine-learning/dot51-portenta-edge-impulse-ml/dot514-vision-fomo/dot5148-advanced-fomo-individual-count/dot5148-advanced-fomo-individual-count.ino) Note: Use the Portenta Pro Library as the include file will auto load. Then just change the deployed Edgeimpulse include file to the correct name.   |   Like the original classification model, just now with bounding boxes and you label each object to detect  |
 
 
+
+
+
+
 <br><br><br>
 # Second Day Conference using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a cell phone or webCam laptop is needed
@@ -213,7 +217,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 
 <br><br><br>
-# In-Person Course on OLED Actuaotrs using the XiaoEsp32s3-sense
+# In-Person Course on OLED Actuators using the XiaoEsp32s3-sense
 Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 | Topic | Example Code| Video | Instructions and Prompt|
@@ -229,7 +233,7 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 <br><br><br>
 ## IoT part of the in-person course using the XiaoEsp32s3-sense
-Note: soldered headers not needed yet
+Note: soldered headers not needed (this part of the course could be done earlier)
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
