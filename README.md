@@ -123,6 +123,14 @@ THIS IS A DRAFT AND NOT YET TESTED!
 
 For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed. 
 
+ [x]
+
+  [x]
+
+  []
+
+  
+
 <input type=checkbox CHECKED>
 
 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
