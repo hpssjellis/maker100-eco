@@ -154,23 +154,7 @@ Note: soldered headers not needed, but a cell phone or webCam laptop is needed
 | <a name="0" href="0">`0`</a>  []()   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
-
-
-
-
-<br><br><br>
-## IoT part of the in-preson course using the XiaoEsp32s3-sense
-Note: soldered headers not needed yet
-
-| Topic | Example Code| Video | Instructions |
-|:---|:---|:---|:---|
-| <a name="0" href="0">`0`</a>  WiFi WebServer  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  Camera Streaming   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="0">`0`</a>  Sound Streamming (Not yet done, maybe can't be done)   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| <a name="0" href="#0">`0`</a> Serial-putty or Linux "screen"         | This is a program to load on your computer that replaces the arduino serial monitor           |      |      Fairly easy once putty is installed. Load power shell and type mode with your Portenta programmed with a serial monitor program find the port. Then switch to Serial on Putty and Correct the COM port. Open and see if you can see serial output from the Portenta        |
-| <a name="0" href="#0">`0`</a> Web-AdafruitIO-Connectivity                        |   [adafruit login](https://accounts.adafruit.com/users/sign_in)  <br> <br> Record your user name and access key. Both the browser web socket and the Arduino MQTT program use those values. <br><br>  MQTT-Websocket [ada-websocket02.html](https://hpssjellis.github.io/my-examples-of-iot-platforms/public/ada-websocket02.html) <br> With Arduino MQTT Portenta code  [dot184-mqtt-client-to-adafruit.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot18-wifi-webserver/dot184-mqtt-client-to-adafruit/dot184-mqtt-client-to-adafruit.ino)<br> <br> The MQTT library to install was written by Joel Gaehwiler is is way down on the list  <br><br>Arduino https uses webhooks but might not work due to changes in the arduino code [dot183-https-to-adafruit.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot18-wifi-webserver/dot183-https-to-adafruit/dot183-https-to-adafruit.ino)       |   Everything will be at this website <a href="https://hpssjellis.github.io/my-examples-of-iot-platforms/public/index.html">Adafruit-Connectivity</a>      | This is a good but large project. A lot for students to learn here |
-| <a name="0" href="0">`0`</a>  Bluetooth Connectivity   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-
+Note: For the 2nd day of a conference users without soldered pins may want to try the IOT part of the course [#iot-part-of-the-in-preson-course-using-the-xiaoesp32s3-sense](#iot-part-of-the-in-preson-course-using-the-xiaoesp32s3-sense)
 
 
 
@@ -190,6 +174,13 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 | <a name="0" href="#0">`0`</a> GPS                           |         [dot215-grove-gps-air530.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot215-grove-gps-air530/dot215-grove-gps-air530.ino)  Only proof of connection.                                                                                                                                                                    |               |                  Try https://www.gpsvisualizer.com/ with the data saved with .GPS extension         Real Assignment: Parse the output for Latitude, Longitude, date time and height, perhaps use: TinyGPS, TinyGPS++, TinyGPSPLUS, NeoGPS libraries.  Then paste your latitude, longnitude into this url  /maps?q=lat,lon example: http://maps.google.com/maps?q=62.44,-114.4  for Yellowknife Canada |
 | <a name="0" href="#0">`0`</a> Accelerometer                           |      Just load MKRIMU library and run the accelerometer example. Note bend the reset pin on the MKR IMU, When that is working login to edgeimpulse and make a motion model using your cell phone, to detect a wave. Then download it to the Portenta and get the onboard LED working when you wave.                                                                                                                                                                      |        |           You can do this all on your own. connect the MKR IMU to the portenta then lookup how to do the example. Note: bend the reset pin of the MKR IMU away from connecting to the Portenta. Causes issues.                          |
 | <a name="0" href="#0">`0`</a> Range-Finder                          |      [dot214-RangeFinder.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot21-sensors/dot214-RangeFinder/dot214-RangeFinder.ino)     |     [<img src="https://img.youtube.com/vi/E1B_iE171E8/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=E1B_iE171E8&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=13) |  For this assignment a variable in the code can be changed to make the range finder work at a greater distance.  |
+
+
+
+
+
+
+
 
 
 <br><br><br>
@@ -221,7 +212,27 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 
 <br><br><br>
+## IoT part of the in-preson course using the XiaoEsp32s3-sense
+Note: soldered headers not needed yet
+
+| Topic | Example Code| Video | Instructions |
+|:---|:---|:---|:---|
+| <a name="0" href="0">`0`</a>  WiFi WebServer  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Camera Streaming   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="0">`0`</a>  Sound Streamming (Not yet done, maybe can't be done)   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| <a name="0" href="#0">`0`</a> Serial-putty or Linux "screen"         | This is a program to load on your computer that replaces the arduino serial monitor           |      |      Fairly easy once putty is installed. Load power shell and type mode with your Portenta programmed with a serial monitor program find the port. Then switch to Serial on Putty and Correct the COM port. Open and see if you can see serial output from the Portenta        |
+| <a name="0" href="#0">`0`</a> Web-AdafruitIO-Connectivity                        |   [adafruit login](https://accounts.adafruit.com/users/sign_in)  <br> <br> Record your user name and access key. Both the browser web socket and the Arduino MQTT program use those values. <br><br>  MQTT-Websocket [ada-websocket02.html](https://hpssjellis.github.io/my-examples-of-iot-platforms/public/ada-websocket02.html) <br> With Arduino MQTT Portenta code  [dot184-mqtt-client-to-adafruit.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot18-wifi-webserver/dot184-mqtt-client-to-adafruit/dot184-mqtt-client-to-adafruit.ino)<br> <br> The MQTT library to install was written by Joel Gaehwiler is is way down on the list  <br><br>Arduino https uses webhooks but might not work due to changes in the arduino code [dot183-https-to-adafruit.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot18-wifi-webserver/dot183-https-to-adafruit/dot183-https-to-adafruit.ino)       |   Everything will be at this website <a href="https://hpssjellis.github.io/my-examples-of-iot-platforms/public/index.html">Adafruit-Connectivity</a>      | This is a good but large project. A lot for students to learn here |
+| <a name="0" href="0">`0`</a>  Bluetooth Connectivity   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+
+
+
+
+
+
+<br><br><br>
 ## Advanced Part of the Course, the RakWireless LoRa/LoRaWan RAK2270StickerTracker
+
+This part of the course is much more challenging than the above. Some teachers may choose to do it for an advanced 2nd year part of the program.
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
