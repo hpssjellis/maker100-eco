@@ -246,7 +246,6 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-
 | <a name="0" href="0">`0`</a>  Simple 1 sensor 1 actuator Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  complex sensor, ML, actuator Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | <a name="0" href="0">`0`</a>  Group Final Project  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
