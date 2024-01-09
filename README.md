@@ -9,7 +9,7 @@ This is not an online course, it is expected to be taught by a teacher or profes
 
 Price list for the equipment I will be using in 2024 [price-list-2024.md](price-list-2024.md) (Many other devices could be used but the videos then will not be accurate for those devices)
 
-<hr style="background-color:red;">
+<hr style="background-color:red; color:blue;">
 
 <span class="tree"> 
 
@@ -32,7 +32,7 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
 
 </details>
 
-<hr style="background-color:orange;">
+<hr style="background-color:orange; color:yellow;">
 
 <details closed> <summary>Why Maker100-Eco?</summary>
 The arduino PortentaH7 with LoRa Vision Shield is an encredible TinyML device that can do amazing things and has been a joy to teach, but I am part of an international group trying to bring tinyML to the students in developing countries called [tinyML4D](https://tinyml.seas.harvard.edu/team) and the Arduino PortentaH7 is just too expensive for student explorations. 
@@ -40,7 +40,7 @@ The arduino PortentaH7 with LoRa Vision Shield is an encredible TinyML device th
 Since schools spend a large amount of their budget on Computers, Laptops, iPads and the technology to integrate them safely with the internet I feel that any method technology teachers can do to reduce costs is good for the entire educational system.
 </details>
 
-<hr style="background-color:green;">
+<hr style="background-color:green; color:green;">
 <details closed> <summary>How much cheaper is the Eco version</summary>
 
 The [Arduino PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) costs $113.90 USD the [LoRa Vision Shield](https://store-usa.arduino.cc/products/arduino-portenta-vision-shield-lora%C2%AE) Costs $69 USD
