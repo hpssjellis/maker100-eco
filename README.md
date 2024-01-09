@@ -234,6 +234,27 @@ Note: soldered headers are now needed on the XiaoEsp32s3-sense
 
 
 
+## XIAO esp32s3-sense  Pinout Diagram
+
+
+![image](https://github.com/hpssjellis/maker100-eco/assets/5605614/c818e03f-562f-40df-8726-f0e5d5903596)
+
+-----
+
+ <img src="https://github.com/hpssjellis/maker100-eco/assets/5605614/c818e03f-562f-40df-8726-f0e5d5903596" width = "100%" /> 
+
+## RAK2270 Sticker Tracker Pinout Diagram
+
+![image](https://github.com/hpssjellis/maker100-eco/assets/5605614/a285279d-19f9-47ff-9b64-00c4b8f26087)
+
+
+----
+
+ <img src="https://github.com/hpssjellis/maker100-eco/assets/5605614/a285279d-19f9-47ff-9b64-00c4b8f26087" width = "100%" /> 
+
+
+
+
  
 #### Jeremy Ellis, ex: Rocksetta now <a href="https://ca.linkedin.com/in/jeremy-ellis-4237a9bb">LinkedIn</a>
 #### High SChool Coding (35 Years), Robotics, web Design, Animation and 3D Printing Teacher, BC Canada
