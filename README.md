@@ -13,6 +13,16 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
 <hr />
 
 
+
+<details closed> <summary>Why Not use the XIAO Expansion board and Round Display?</summary>
+   The Seeedstudio [$16.40 USD Exanpsion board](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/) and [$18.00 USD Round Display](https://wiki.seeedstudio.com/get_start_round_display/) are amazing inexpensive addons to the XIAO-ESP32s3-sense and are very well explained on the Getting started sites listed above. I have both for my classrooms and may use them as the year goes on, but I have testing to do to find out if the color round display is as fast as my grayscale OLED and I do not like students using I2C and SPI connectors that come with the expnasion board because the students naturally begin to feel that they can only use sensors and actuators that come with the correct connectors. The students for their final projects stay away from brand new sensors that have just hit the market because those sensors do not come with the correct connectors. It also does not help that so many boards use different connectors. If you are just starting a course and know that you are going to stick with the Grove sensor actuator system and have a few extra connectors around for new devices then the expansion board might be a great way to teach.
+</details>
+
+<br>
+<hr />
+
+
+
 <details closed> <summary>Teacher Tips</summary>
 <ol>
   <li> Students work on term assignments in partners and make very short videos that teache what they did for each assignment.</li>
