@@ -295,6 +295,9 @@ This part of the course is much more challenging than the above. Some teachers m
 
 
 <br><br><br>
+## View the [maker100](https://github.com/hpssjellis/maker100#latest-portenta-pinout) course for the Portenta Pinout Diagram
+<br><br><br>
+
 ## XIAO esp32s3-sense  Pinout Diagram
 
 
