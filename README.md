@@ -119,6 +119,9 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 
 ##
 THIS IS A DRAFT AND NOT YET TESTED!
+The box will be checked when the activity is tested and the boxes eventually will be removed. 
+
+<input type=checkbox CHECKED>
 
 
 
