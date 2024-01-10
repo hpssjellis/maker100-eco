@@ -12,11 +12,11 @@
 This course is based on the  [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the basic course with Vision and sound machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the advanced LoRaWan Motion machine learning.
 
 
-The way I teach 
+<details><sumary></sumary>The way I teach </details>summary>
 
+I only need 15 sets for very few items like the microcontrollers, breadboards, jumper wires etc. Many of the sensors and actuators I  only have 3-6 as my students work at different speeds throughout the course. I still teach the course linear each assignment one after the other, but some students fall behind and other students can do the work with minimal help from me. The students who finish faster have more time to do the final projects. If you want to do the course as a lecture then a fixed lab you would need 15 of everything.
 
-I only need 15 sets for very few items like the microcontrollers, breadboards, jumper wires etc. Many of the sensors and actuators I  only have 3-6 as my students work at different speeds throughout the course. The students who finish faster have more time to do the final projects. If you want to do the course as a lecture then a fixed lab you would need 15 of everything.
-
+</details>
 
 
 
