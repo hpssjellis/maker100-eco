@@ -133,7 +133,7 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 THIS IS A DRAFT AND NOT YET TESTED!
 
 <hr>
-For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed. 
+For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed.<br>   
 
 
 &#9745; has been tested on the relevant device, code, video and instructions are working
