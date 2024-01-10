@@ -3,7 +3,7 @@
 
 # NOT YET UPDATED FOR THE XioaEsp32s3-Sense AND RAK2270 MICROCONTROLLERS!
 
-For the course [maker100-eco](..) a cheaper version of my [Arduino PortentaH7](https://github.com/hpssjellis/maker100) course
+For the course [maker100-eco](./) a cheaper version of my [Arduino PortentaH7](https://github.com/hpssjellis/maker100) course
 
 
 ## Minimal Price List for this Maker100-eco course made cheaper than the original [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course based on the PortentaH7 with LoRa Vision Shield
