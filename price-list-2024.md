@@ -20,7 +20,7 @@ I only need 15 sets for very few items like the basics microcontrollers, breadbo
 
 
 
-### Basic Microcontrollers
+### Basic Supplies and Microcontrollers
 
 1. $13.99 USD [Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)  <br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/12fe6ba4-a8f4-4563-ab6d-aa1755d568d6">
 
@@ -50,7 +50,7 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 
 
 
-
+<hr>
 
 ### Sensors
 
@@ -83,6 +83,9 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 
 
 
+<hr>
+
+
 ### Actuators
 
 1.  $23.00 USD [1.5inch OLED Display Module 128x128 16 Gray Scale SPI/I2C Interface SSD1327 Driver Raspberry Pi/Arduino/STM32](https://www.amazon.ca/dp/B079KRC9X3?psc=1&smid=AIVH4OZ6D0Y4K&ref_=chk_typ_imgToDp) or from waveshare ($12.99 USD) [128x128, General 1.5inch OLED display Module, SKU: 13992](https://www.waveshare.com/1.5inch-oled-module.htm)      <br><img src="https://user-images.githubusercontent.com/5605614/136551247-6a7fc635-e00c-4b14-80a9-550cb4e7a7b3.png" width=100 />
@@ -112,6 +115,9 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 
 
 
+
+
+<hr>
 
 
 ###  Note: Basic soldering equipment, batteries, wires and resistors transistors etc would be expected.
@@ -155,8 +161,14 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 
 
 
+
+
+
 <br><br><br><br><br><br>
 
+
+
+<hr>
 
 #  Old PortentaH7 Course purchases and componenets that will not be taugh in the latest course such as the Ethernet Connectivity or the LVGD monitor connectivity
 
