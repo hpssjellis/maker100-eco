@@ -19,12 +19,13 @@ I only need 15 sets for very few items like the microcontrollers, breadboards, j
 
 
 
-1. $13.99 USD [Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+1. $13.99 USD [Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)  <br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/12fe6ba4-a8f4-4563-ab6d-aa1755d568d6">
 
 
-1. $14.50 USD [RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
 
+1. $23.90 USD [RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302<br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/71b64314-c0f8-4728-bc5c-4955f6b28791">
 
+Note: I only purchase a few of the versions above with the clips and get the rest the base developer model for $14.50 USD, Also note that the generic version with single use battery is only $14.90 USD and it comes covered with a sticky backing and the keys needed to program it for any LoRaWan network like Helium or TTN. A hair dryer is all that is needed to remove the cover to access the pins to program it like the developer version!
 
 
 
