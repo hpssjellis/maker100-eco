@@ -12,9 +12,25 @@
 This course is based on the  [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the basic course with Vision and sound machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the advanced LoRaWan Motion machine learning.
 
 
-Note A star * is for items that the classroom only needs a few since students typically work at their own pace on the assignments.
+The way I teach 
 
 
+I only need 15 sets for very few items like the microcontrollers, breadboards, jumper wires etc. Many of the sensors and actuators I  only have 3-6 as my students work at different speeds throughout the course. The students who finish faster have more time to do the final projects. If you want to do the course as a lecture then a fixed lab you would need 15 of everything.
+
+
+
+1. $13.99 USD [Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+
+
+1. $14.50 USD [RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)
+
+
+
+
+
+
+
+#  Old PortentaH7 Course purchases and componenets that will not be taugh in the latest course such as the Ethernet Connectivity or the LVGD monitor connectivity
 
 
 1. $104 USD [Arduino PortentaH7](https://store.arduino.cc/usa/portenta-h7)   <br><img src="https://user-images.githubusercontent.com/5605614/133374580-13deb749-820c-46db-bc04-597c610d2bd0.png" width=100 />
