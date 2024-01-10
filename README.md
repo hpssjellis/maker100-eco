@@ -1,6 +1,6 @@
 ## Maker100-Eco    THIS IS A DRAFT AND NOT YET READY!
 
-An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course this time using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the course basics and some [EdgeImpulse.com](https://edgeimpulse.com/) cell phone assisted machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the LoRa/LoRaWan and Motion (x,y,z) machine learning using [tinyMLjs](https://hpssjellis.github.io/tinyMLjs/public/index.html) a static webpage webSerial Machine Learning method I have made.
+An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course this time using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the course basics and some [EdgeImpulse.com](https://edgeimpulse.com/) cell phone assisted machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the LoRa/LoRaWan and Motion (x,y,z) machine learning using [tinyMLjs](https://hpssjellis.github.io/tinyMLjs/public/index.html) a static webpage webSerial Machine Learning method I have made.
 
 
 Views better using the README.md [here](README.md)
@@ -60,7 +60,7 @@ Since schools spend a large amount of their budget on Computers, Laptops, iPads 
 The [Arduino PortentaH7](https://store-usa.arduino.cc/products/portenta-h7) costs $113.90 USD the [LoRa Vision Shield](https://store-usa.arduino.cc/products/arduino-portenta-vision-shield-lora%C2%AE) Costs $69 USD
 
 
-The [XiaoEsp32s-sense](https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html)  costs $13.99
+The [XiaoEsp32s3-sense](https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html)  costs $13.99
 
 and the [RAK2270 Developer](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046273286342) costs $14.50 USD
 
@@ -98,12 +98,12 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 <li>The original Maker100 Course is https://github.com/hpssjellis/maker100 </li>
 
   
-<li>SeeedStudio Link to the XiaoEsp32S3 Sense store https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html     Note: It needs headers soldered to do many of the assignments. </li>
+<li>SeeedStudio Link to the XiaoEsp32s3-Sense store https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html     Note: It needs headers soldered to do many of the assignments. </li>
 
 <li>RakWireless ~$15 USD RAK2270 Sticker Tracker   store is at  https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) </li>
 
 
-<li>The original XiaoEsp32s and RAK2270 research is at https://github.com/hpssjellis/mcu-stable-edu-launch</li>
+<li>The original XiaoEsp32s3 and RAK2270 research is at https://github.com/hpssjellis/mcu-stable-edu-launch</li>
 
 <li>TinyMLjs is at https://github.com/hpssjellis/tinyMLjs</li>
 
@@ -127,7 +127,7 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 
 
 
-## Seeedstudio XiaoEsp32s Currciulum
+## Seeedstudio XiaoEsp32s3 Currciulum
 
 ##
 THIS IS A DRAFT AND NOT YET TESTED!
@@ -172,7 +172,7 @@ Students are encouraged to work ahead.
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
 |  &#9744;  <a name="0" href="0">`0`</a>   Make a vision classification machine learning model using your cell phone    |     [edgeimpulse.com](https://studio.edgeimpulse.com/login)              | This is a full playlist so many other videos here might help  [<img src="https://img.youtube.com/vi/wbX_-No8kIw/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=wbX_-No8kIw&list=PL57Dnr1H_egsQPnEObWHPhK1Q4g_IDWcR&index=7)              | This website is a good starting point [https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/). For this assignment we are not using the microcontroller.    <details closed> <summary>More Instructions</summary> Connect your cell phone to EdgeImpulse, take 30 images of pens on various backgrounds, then take 50 images of various backgrounds, create your impulse (96 x 96), generate features, train and then switch to classification on your cell phone  </details> <details closed> <summary>ChatGPT Prompt</summary> Give me the steps to make a vision classification model on edgeimpulse.com with only an unknow label for the background and pens for the object. We will only be using our cell phone to collect the images, so it will need to be connected to the edgeimpulse site. The cell phone will allow the image labelling before I take the images. After the images are taken explain how to setup the impulse machine learning model.</details> |
-| &#9744;  <a name="0" href="0">`0`</a>  Put the one hour conference Vision model on the XiaoEsp32s  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| &#9744;  <a name="0" href="0">`0`</a>  Put the one hour conference Vision model on the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;   <a name="0" href="0">`0`</a>  Using your cell phone to make a FOMO model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="0">`0`</a>  Put the FOMO model onto the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;   <a name="0" href="0">`0`</a>  Use your cell phone to make a Sound Model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
@@ -193,8 +193,8 @@ Students are encouraged to work ahead.
 
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
-| &#9744;  <a name="0" href="0">`0`</a> XiaoEsp32s camera to micro sd-card to FOMO model to XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| &#9744;  <a name="0" href="0">`0`</a>  EdgeImpulse cell phone motion x,y,z model   |      |     | Do this for later in the course when we use the RAK2270StickerTracker to get an idea of what we are doing. If you have a motion sensor for the XiaoEsp32s-sense then you could upload this model to it but that is optional  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| &#9744;  <a name="0" href="0">`0`</a> XiaoEsp32s3 camera to micro sd-card to FOMO model to XiaoEsp32s3   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| &#9744;  <a name="0" href="0">`0`</a>  EdgeImpulse cell phone motion x,y,z model   |      |     | Do this for later in the course when we use the RAK2270StickerTracker to get an idea of what we are doing. If you have a motion sensor for the XiaoEsp32s3-sense then you could upload this model to it but that is optional  <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="#0">`0`</a>  Auto Blink and Serial Print  | [dot11-hello-blink.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot1-portentaH7-examples/dot11-hello-blink/dot11-hello-blink.ino) |      [<img src="https://img.youtube.com/vi/3E5KUT115xY/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=3E5KUT115xY&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=7)         |                     Print other things and change the pattern of blinking using different colors LEDR, LEDG, LEDB, LED_BUILTIN (which is green). Note: I stay away from LEDR as red is used to show errors    |
 | &#9744;  <a name="0" href="#0">`0`</a>.  Button causes LED to blink          |       [dot228-button-control-led.ino](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot2-portenta-h7-with-accessories/dot22-actuators/dot228-button-control-led/dot228-button-control-led.ino)                                                                                                                                                                     |    [<img src="https://img.youtube.com/vi/wFw-AF8gwiY/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=wFw-AF8gwiY&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=2)           |                   <img src="media/b-b-h-button-control-led.jpg" width = 200/>  <br>        Control the LED with the button, then control multiple LED's with Multiple Buttons. Note: Can't control large current flow devices, WHY? Could you make the external LED interact like the internal LED?    |
 | &#9744;  <a name="0" href="#0">`0`</a>  Flash SOS                           |     [dot71-sos](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot7-coding-curriculum/dot71-sos/dot71-sos.ino)                                                                                                                                                                         |       [<img src="https://img.youtube.com/vi/iDC3vuBGGcg/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=iDC3vuBGGcg&list=PL57Dnr1H_egv1FVzAcCZVeANJMs3Hta05&index=11)          |                    Get the code running to flash the LED_BUILTIN, then have it flash an SOS. 3 short flashes, 3 long flashes, 3 short flashes then a 5 second rest.     |
