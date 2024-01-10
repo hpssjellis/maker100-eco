@@ -136,7 +136,13 @@ THIS IS A DRAFT AND NOT YET TESTED!
 For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed. 
 
 
-&#9745; has been tested on the relevant device. This might take a while to transfer the entire course.
+&#9745; has been tested on the relevant device, code, video and instructions are working
+
+&#10004; This code works just the video or instructions are not yet made
+
+&#10003; Old Portenta code and video might work just not yet tested
+
+&#10062; I know this doesn't work, just trying to figure out how to make it work
 
 &#9744;  Means not yet tested or just plain old Portenta code
 
