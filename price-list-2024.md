@@ -3,7 +3,7 @@
 
 # NOT YET UPDATED FOR THE xIAOeSP32S AND RAK2270 MICROCONTROLLERS!
 
-
+For the course [maker100-eco](README.md) a cheaper version of my [Arduino PortentaH7](https://github.com/hpssjellis/maker100) course
 
 
 ## Minimal Price List for this Maker100-eco course made cheaper than the original [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course based on the PortentaH7 with LoRa Vision Shield
@@ -12,9 +12,9 @@
 This course is based on the  [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the basic course with Vision and sound machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the advanced LoRaWan Motion machine learning.
 
 
-<details><sumary></sumary>The way I teach </details>summary>
+<details><summary></sumary>The way I teach </summary>
 
-I only need 15 sets for very few items like the microcontrollers, breadboards, jumper wires etc. Many of the sensors and actuators I  only have 3-6 as my students work at different speeds throughout the course. I still teach the course linear each assignment one after the other, but some students fall behind and other students can do the work with minimal help from me. The students who finish faster have more time to do the final projects. If you want to do the course as a lecture then a fixed lab you would need 15 of everything.
+I only need 15 sets for very few items like the basics microcontrollers, breadboards, jumper wires etc. Many of the sensors and actuators I  only have 3-6 as my students work at different speeds throughout the course. I still teach the course in a linear format each assignment one after the other (possibly 2 assignments in one class), but some students fall behind and other students can do the work with minimal help from me. The students who finish faster have more time to do the final projects. If you want to do the course as a lecture then a fixed lab you would need 15 of everything.
 
 </details>
 
