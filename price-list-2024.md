@@ -222,7 +222,7 @@ Note: I only purchase a few of the versions above with the clips and get the res
 
 
 
-1. *3D Printer.  <br><br>I have the $2,499.00 CAD [Tinkerine](https://store.tinkerine.com/)   <br> <img src="https://user-images.githubusercontent.com/5605614/148174097-5dce8af0-32b8-47d9-bb3a-c83c8c0baabf.png" width=100 /> Which does not have a heated print bed <br> I also have a 12x12x12 ~$4000 CAD [Raise3D N2 V2](https://www.amazon.com/Raise3D-Plus-Printer-Dual-Extruder/dp/B01N3982HD) which has a dual extruder which is handy but is also very complex,   <br> <img src="https://user-images.githubusercontent.com/5605614/148174401-aa4f728a-a2bb-49ac-9a35-ec33cf986879.png" width=100 />  any working 3D Printer would be fine. The above printers are very reliable but do not necessarily print better than a cheaper one.
+1. *3D Printer.  <br><br>I have the $2,499.00 CAD [Tinkerine](https://store.tinkerine.com/)   <br> <img src="https://user-images.githubusercontent.com/5605614/148174097-5dce8af0-32b8-47d9-bb3a-c83c8c0baabf.png" width=100 /> Which does not have a heated print bed <br><br><br> I also have a 12x12x12 ~$4000 CAD [Raise3D N2 V2](https://www.amazon.com/Raise3D-Plus-Printer-Dual-Extruder/dp/B01N3982HD) which has a dual extruder which is handy but is also very complex,   <br> <img src="https://user-images.githubusercontent.com/5605614/148174401-aa4f728a-a2bb-49ac-9a35-ec33cf986879.png" width=100 />  any working 3D Printer would be fine. The above printers are very reliable but do not necessarily print better than a cheaper one.
 
 
 
