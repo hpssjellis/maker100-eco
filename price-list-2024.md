@@ -9,7 +9,7 @@ For the course [maker100-eco](./) a cheaper version of my [Arduino PortentaH7](h
 ## Minimal Price List for this Maker100-eco course made cheaper than the original [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course based on the PortentaH7 with LoRa Vision Shield
 
 
-This course is based on the  [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the basic course with Vision and sound machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the advanced LoRaWan Motion machine learning.
+This course is based on the  [$13.99 USD Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the basic course with vision and sound machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the advanced LoRaWan Motion machine learning.
 
 
 <details><summary></sumary>The way I teach </summary>
