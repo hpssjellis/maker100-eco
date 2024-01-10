@@ -1,7 +1,7 @@
 
 
 
-# NOT YET UPDATED FOR THE xIAOeSP32S AND RAK2270 MICROCONTROLLERS!
+# NOT YET UPDATED FOR THE XioaEsp32s3-Sense AND RAK2270 MICROCONTROLLERS!
 
 For the course [maker100-eco](README.md) a cheaper version of my [Arduino PortentaH7](https://github.com/hpssjellis/maker100) course
 
