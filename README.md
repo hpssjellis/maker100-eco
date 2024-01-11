@@ -12,6 +12,7 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
 <br><br><br>
 <hr />
 
+<details closed> <summary>Teacher Extras</summary>
 
 
 <details closed> <summary>Why Not use the XIAO Expansion board and Round Display?</summary>
@@ -122,7 +123,7 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 
 
 
-
+</details>
 
 
 
