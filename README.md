@@ -176,8 +176,7 @@ Students are encouraged to work ahead.
 | &#9744;  <a name="0" href="0">`0`</a>  Put the one hour conference Vision model on the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;   <a name="0" href="0">`0`</a>  Using your cell phone to make a FOMO model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="0">`0`</a>  Put the FOMO model onto the XiaoEsp32s3  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| &#9744;   <a name="0" href="0">`0`</a>  Use your cell phone to make a Sound Model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
-| &#9744;   <a name="0" href="0">`0`</a>  Put the sound model onto your XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+
 
 
 
@@ -191,6 +190,8 @@ Students are encouraged to work ahead.
 
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
+| &#9744;   <a name="0" href="0">`0`</a>  Use your cell phone to make a Sound Model   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| &#9744;   <a name="0" href="0">`0`</a>  Put the sound model onto your XiaoEsp32s   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="0">`0`</a>  (optional) Try the Edgeimpulse connection method  |   [edgeimpulse.com](https://studio.edgeimpulse.com/login)      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="#0">`0`</a> Edge-Impulse-Sound-Yes-No            | |              |   Follow the wizard on Edgeimpulse to make a verbal Machine Learning model using your cell phone. Then download the Arduino deployment, install the zipped Arduino library and choose the default Portenta Sound example. Then talk into your Portenta and view the Serial Monitor. Then get the onboard LED to respond to your voice.            |
 | &#9744;  <a name="0" href="#0">`0`</a> Edge-Impulse-Vision-FOMO                          |      Use the Vision grayscale OLED from above and the [dot5148-advanced-fomo-individual-count](https://github.com/hpssjellis/portenta-pro-community-solutions/blob/main/examples/dot5-portenta-machine-learning/dot51-portenta-edge-impulse-ml/dot514-vision-fomo/dot5148-advanced-fomo-individual-count/dot5148-advanced-fomo-individual-count.ino) Note: Use the Portenta Pro Library as the include file will auto load. Then just change the deployed Edgeimpulse include file to the correct name.   |   Like the original classification model, just now with bounding boxes and you label each object to detect  |
