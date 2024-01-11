@@ -120,20 +120,6 @@ Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of 
 
 
 
-
-
-
-</details>
-
-
-
-
-
-## Seeedstudio XiaoEsp32s3 Currciulum
-
-##
-THIS IS A DRAFT AND NOT YET TESTED!
-
 <hr>
 For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed.<br> <br>     
 
@@ -149,6 +135,20 @@ For each row the checkbox will be checked when the activity is tested and the bo
 &#9744;  Means not yet tested or just plain old Portenta code
 
 <hr>
+
+
+</details>
+
+
+
+
+
+## Seeedstudio XiaoEsp32s3 Currciulum
+
+##
+THIS IS A DRAFT AND NOT YET TESTED!
+
+
 
 
 
