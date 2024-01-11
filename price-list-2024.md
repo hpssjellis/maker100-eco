@@ -264,3 +264,15 @@ Without the starred items my course would cost about $500 per pair of students. 
 This is not a perfect list as a few of these items will need to be tested in 2024.
 
 
+
+
+## 3D prints
+
+
+This little clip helped my put the XIAO-Esp32s3 into boot loader mode. Download .stl file [seeed-sketches/XIAO-esp32s3-pin-hold01-v04.stl](./seeed-sketches/XIAO-esp32s3-pin-hold01-v04.stl)
+
+<img width="89" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/9c946ce7-032e-4728-9add-4b5a4cfbda98">
+
+
+
+https://github.com/hpssjellis/mcu-stable-edu-launch/blob/main/xiao-esp32s3/XIAO-esp32s3-pin-hold01-v04.stl
