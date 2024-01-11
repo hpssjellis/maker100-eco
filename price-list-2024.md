@@ -91,7 +91,7 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 
 
 
-1. $4.12 USD  [ADXL362 Accelerometer](https://www.amazon.com/Reland-Sun-ADXL362-Acceleration-Interface/dp/B09B7ZNWCY/ref=sr_1_1?crid=16ZSFGWJ0Z54E&dib=eyJ2IjoiMSJ9.dT8Bx5C1KY7YVB_eKW_jQhU_VJrRMXwDtSWjZp_GfHUaJdaM1jD3_jkVimfmSm1SPx3-P_UaiFmxQOqw4Kxm3Q.RIfS_2ceBtpfp72EV_atz3cREVe1aCTGtlvyXqPWD2I&dib_tag=se&keywords=ADXL362&qid=1705005894&sprefix=adxl362%2Caps%2C110&sr=8-1)  or [RobotShop 16.95](https://www.robotshop.com/products/sfe-3g-tripleaxis-accelerometer-breakout-board-adxl335)  <br> <img width="256" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/1841093a-e129-428b-b9c4-5e9f02a92301">
+1. $4.12 USD  [ADXL362 Accelerometer](https://www.amazon.com/Reland-Sun-ADXL362-Acceleration-Interface/dp/B09B7ZNWCY/ref=sr_1_1?crid=16ZSFGWJ0Z54E&dib=eyJ2IjoiMSJ9.dT8Bx5C1KY7YVB_eKW_jQhU_VJrRMXwDtSWjZp_GfHUaJdaM1jD3_jkVimfmSm1SPx3-P_UaiFmxQOqw4Kxm3Q.RIfS_2ceBtpfp72EV_atz3cREVe1aCTGtlvyXqPWD2I&dib_tag=se&keywords=ADXL362&qid=1705005894&sprefix=adxl362%2Caps%2C110&sr=8-1)  or [RobotShop 16.95](https://www.robotshop.com/products/sfe-3g-tripleaxis-accelerometer-breakout-board-adxl335)  <br> <img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/1841093a-e129-428b-b9c4-5e9f02a92301">
 
 
 
