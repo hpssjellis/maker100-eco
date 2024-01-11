@@ -8,6 +8,9 @@
  * Purchase here https://www.waveshare.com/1.5inch-OLED-Module.htm about $29 USD
  *
 
+Using the LRrobot D100 Lidar kit
+
+$$109 CDN  https://ca.robotshop.com/products/ldrobot-d100-lidar-kit?gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wZ3eMFR-CrooEg9twaET89RPSnotREUcfU1b4nH3MJI7BHL4mM-IJkaAoObEALw_wcB
 
  *  FOR the GRAYSCALE Waveshare OLED
  *   black GND 
