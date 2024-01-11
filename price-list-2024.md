@@ -25,6 +25,17 @@ I only need 15 sets for very few items like the basics microcontrollers, breadbo
 1. $13.99 USD [Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)  <br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/12fe6ba4-a8f4-4563-ab6d-aa1755d568d6">
 
 
+<details closed> <summary>What about the XIAO Expansion board and Round Display?</summary>
+   The Seeedstudio [$16.40 USD Exanpsion board](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/) and [$18.00 USD Round Display](https://wiki.seeedstudio.com/get_start_round_display/) are amazing inexpensive addons to the XIAO-ESP32s3-sense and are very well explained on the Getting started sites listed above. <br><br>I have both for my classrooms and may use them as the year goes on, but I have testing to do to find out if the color round display is as fast as my grayscale OLED and I do not like students using I2C and SPI connectors that come with the expnasion board because the students naturally begin to feel that they can only use sensors and actuators that come with the correct connectors. <br><br>The students for their final projects stay away from new or unusual sensors/actuators  because those sensors do not come with the correct connectors. A possible solution is to have the [grove-4-pin-female-jumper-wire](https://ca.robotshop.com/products/grove-4-pin-female-jumper-wire) I would prefer the male pins but it is electrically safer to have the female pins. It also does not help that so many boards use different connectors. I have lots of sensors with connectors that don't work with the grove systems. If you are just starting a course and know that you are going to stick with the [Grove sensor actuator system](https://wiki.seeedstudio.com/Grove_System/) and have a few extra connectors on bare wires ordered for new devices then the expansion board might be a great way to teach.<br><br>
+   If you choose to uswe the expansion board this ebook [here](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/) covers working with it very well.
+
+   
+</details>
+
+
+
+
+
 
 1. $23.90 USD [RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302)<br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/71b64314-c0f8-4728-bc5c-4955f6b28791">
 
