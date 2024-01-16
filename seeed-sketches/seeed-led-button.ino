@@ -5,11 +5,12 @@
 * Use at your own risk.
 ************************************************ Important stuff if needed ****************************************
 *
+* Connect a button to both D6 and the other end to 3V3 (two wires can work as a button)
+*
 * Must connect the short wire of an LED to a small ohm resistor
 * connect the resistor to ground (GND)
 * and the long wire of the LED to a digital output D5
 * 
-* Connect a button to both D6 and the other end to 3V3
 ********************************************************** end ****************************************************
 *
 *  Turns on the onboard LED on for one second, then off for three seconds, repeatedly.
