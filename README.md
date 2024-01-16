@@ -148,8 +148,9 @@ For each row the checkbox will be checked when the activity is tested and the bo
 ##
 THIS IS A DRAFT AND NOT YET TESTED!
 
-
-
+Arduino Preferences for both the Xioa-Esp32s3 and the RAK2270-Developer-sticker-tracker
+Note: They are comma seperated
+```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json,https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless.com_rui_index.json```
 
 
 
