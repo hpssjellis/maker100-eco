@@ -92,6 +92,7 @@ Very hard to compare the Xiao/Rak class set of $427.35 USD with a class set of P
 <br>
 <hr />
 
+</details> <!-- Closing teacher links main group  -->
 
 <details closed> <summary>Useful Links</summary>
 
@@ -139,7 +140,7 @@ For each row the checkbox will be checked when the activity is tested and the bo
 <hr>
 
 
-</details>
+
 
 
 
