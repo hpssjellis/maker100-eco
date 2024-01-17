@@ -154,6 +154,9 @@ Note: They are comma seperated
 ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json,https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless.com_rui_index.json```
 
 
+[<img src="https://img.youtube.com/vi/u-H3OpFcPss/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=u-H3OpFcPss&list=PL57Dnr1H_egt9XmHjfcyRR4YCo3eGrZwQ&index=1&pp=gAQBiAQB) 
+
+
 
 # Example One Hour Session using the XiaoEsp32s3-sense
 Note: soldered headers not needed, but a USB-C cable and computer or laptop to run the code is neede
