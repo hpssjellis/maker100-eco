@@ -97,7 +97,7 @@ Very hard to compare the Xiao/Rak class set of $427.35 USD with a class set of P
 
 
 <ol>
-<li>Simplified course layout and organization [course-order.md](course-order.md)</li>
+<li>Simplified course layout and organization <a href="course-order.md">course-order.md</a> </li>
 
 <li>The original Maker100 Course is https://github.com/hpssjellis/maker100 </li>
 
