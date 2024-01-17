@@ -31,8 +31,8 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
 <ol>
   <li> Students work on term assignments in partners and make very short videos that teach what they did for each assignment.</li>
   <li>I expect all students to try to improve and change each assignment. "Until you change computer code do not expect to understand it"</li>
-  <li>MAKE EACH STUDENT DRAW THEIR OWN CIRCUIT DIAGRAM FOR EACH ASSIGNMENT.</li>
-  <li>I expect all students to draw circuit diagrams before connecting wires and have someone check the diagram and then to connectr the wires and have someone also check before stuidents connect power to the device.</li>
+  <li>MAKE EACH STUDENT DRAW THEIR OWN CIRCUIT DIAGRAM FOR EACH ASSIGNMENT. For easy assignments I make it hard for the students to know how to connect the wires. I only give students clear diagrams for the difficult connections. Let students think. These are not fully made recipes!</li>
+  <li>I expect all students to draw circuit diagrams before connecting wires and have someone check the diagram and then to connect the wires and have someone also check before stuidents connect power to the device.</li>
   <li>I teach one assignment per class but expect several students to work ahead and solve missing parts of the prossess in small groups, also some students will fall behind, this allows us to have fewer sensors and actuators since the class rarely uses them at the same time. I can often get away with 4 sensors for an entire 30 person class</li>
   <li>The faster students finish the course the more time they have for their final projects</li> 
   <li>To pass the course everyone must complete at least one final project using a sensor connected to an actuator of their choice</li>
@@ -77,14 +77,14 @@ So
 
 Note: the rak2270 will need a few ~$10 rigs to communicate over a serial monitor
 
-So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class set of 15 MCU of both types (XIAO-sense and RAK) that span my complete curriculum
+So for the price of 3 PortentaH7 with LoRa Vision shields I can get a full class set of 15 MCU's of both types (XIAO-sense and RAK) that span my complete curriculum
 
-Probably a good idea to spend a bit of money purchasing the clips (rigs) for connecting the Sticker Trackers to serial ports.
+Probably a good idea to spend a bit of money purchasing the clips and RAKDAP1's for connecting the RAK2270 Sticker Trackers to serial ports. Although soldering the wires to the board pads and using a TTL usb-to serial cable is another option.
 
 
 <hr>
 
-Very hard to compare the Xiao/Rak class set for $427.35 USD with a class set of PortentaH7's ($15 x $182.90) = $2743.50 USD
+Very hard to compare the Xiao/Rak class set of $427.35 USD with a class set of PortentaH7's ($15 x $182.90) = $2743.50 USD
 
 </details>
 
