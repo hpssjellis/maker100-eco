@@ -42,7 +42,7 @@ Price list for the equipment I will be using in 2024 [price-list-2024.md](price-
   <li> Final projects typically do not involve high voltage, water or drones for the obvious safety reasons.  </li>
   <li> I tell students that if every term assignment is complete the indivdual final project is there full mark if that helps their grade</li>
   <li>Teacher's may decide to make several of the advanced assignments optional or even set for bonus marks</li>
-  <li>Use LLM such as ChatGPT to help understand what the code does or how to improve the assignment</li>
+  <li>Use an LLM such as ChatGPT to help understand what the code does or how to improve the assignment</li>
 </ol>
 
 </details>
