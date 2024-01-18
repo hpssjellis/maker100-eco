@@ -121,7 +121,7 @@ Very hard to compare the Xiao/Rak class set of $427.35 USD with a class set of P
 
 
 
-<hr>
+
 For each row the checkbox will be checked when the activity is tested and the boxes eventually will be removed.<br> <br>     
 
 
