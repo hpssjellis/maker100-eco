@@ -100,6 +100,7 @@ Very hard to compare the Xiao/Rak class set of $427.35 USD with a class set of P
 
 <li>The original Maker100 Course is https://github.com/hpssjellis/maker100 </li>
 
+<li>Excellent reference for the Xiao Esp32s3 section of this course <a href="https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/ ">XIAO_Big_Power_Small_Board-ebook </a>        </li>
   
 <li>SeeedStudio Link to the XiaoEsp32s3-Sense store https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html     Note: It needs headers soldered to do many of the assignments. </li>
 
