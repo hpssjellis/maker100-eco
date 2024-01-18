@@ -23,16 +23,16 @@
  * For platform.io you need this line in your platform.ini file at the bottom of the file
  lib_deps = arduino-libraries/Servo
  * 
- ********************************************************** end ****************************************************
- *
- *  By Jeremy Ellis twitter @rocksetta
- *  Webpage http://rocksetta.com
- *  Arduino High School Robotics Course at
- *  https://github.com/hpssjellis/arduino-high-school-robotics-course
- * 
- *  Update Aug 7th, 2020
- * 
- */
+********************************************************** end ****************************************************
+*
+*  Turns on the onboard LED on for one second, then off for three seconds, repeatedly.
+*  also checks if Serial Print is working
+*  July 22nd, 2020
+*  Update Jan 2024
+*  by Jeremy Ellis
+*  LinkedIn  https://ca.linkedin.com/in/jeremy-ellis-4237a9bb
+*  Website https://www.rocksetta.com
+*/
 
 #include <Arduino.h>  // only needed for https://platformio.org/
 //#include <Servo.h>
