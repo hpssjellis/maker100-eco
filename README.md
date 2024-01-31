@@ -137,7 +137,7 @@ For each row the checkbox will be checked when the activity is tested and the bo
 
 &#9744;  Means not yet tested or just plain old Portenta code
 
-NOTE: ASSSIGNMENT LINKS NOT ACTIVE UNTIL PROJECT READY!
+NOTE: ASSSIGNMENT LINKS  (the numbers a01,  a02  etc)  NOT ACTIVE UNTIL PROJECT READY!
 
 <hr>
 
