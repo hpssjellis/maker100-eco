@@ -168,7 +168,7 @@ Video showing how to setup the XiaoEsp32s3. There are also lots of other instruc
 Note: soldered headers not needed, but a USB-C cable and computer or laptop to run the code is neede
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
-| &#9745; <a name="a01" href="a01">`a01`</a>  Follow the Sensecraft Vision example  |  [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/)   |   |    <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| &#9745; <a name="a01" href="a01">`a01`</a>  Follow the Sensecraft Vision example  |  [wiki.seeedstudio.com/sscma/](https://wiki.seeedstudio.com/sscma/) direct webpage [https://seeed-studio.github.io/SenseCraft-Web-Toolkit/](https://seeed-studio.github.io/SenseCraft-Web-Toolkit/)  |   |    <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 
 
 
