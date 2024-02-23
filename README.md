@@ -283,7 +283,7 @@ Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-| &#9744;  <a name="0" href="0">`a47`</a>  WiFi WebServer  |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
+| &#9744;  <a name="0" href="0">`a47`</a>  WiFi WebServer  |  [seeed-wifi-server.ino](seeed-sketches/seeed-wifi-server.ino)    |     |  You will need to setup a hotspot with a SSID and PASSWORD on a local network and then go to the url in the serial monitor on a computer or cell phone connected to the same local network <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="0">`a48`</a>  Camera Streaming   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="0">`a49`</a>  Sound Streaming (Not yet done, maybe can't be done)   |      |     |   <details closed> <summary>More Instructions</summary> ... </details> <details closed> <summary>ChatGPT Prompt</summary> ... </details>  |
 | &#9744;  <a name="0" href="#0">`a50`</a> Serial-putty or Linux "screen"         | This is a program to load on your computer that replaces the arduino serial monitor           |      |      Fairly easy once putty is installed. Load power shell and type mode with your Portenta programmed with a serial monitor program find the port. Then switch to Serial on Putty and Correct the COM port. Open and see if you can see serial output from the Portenta        |
