@@ -46,8 +46,6 @@ void setup()
 
     // We start by connecting to a WiFi network
 
-    Serial.println();
-    Serial.println();
     Serial.print("Connecting to ");
     Serial.println(ssid);
 
