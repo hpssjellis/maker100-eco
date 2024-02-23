@@ -27,8 +27,8 @@ ported for sparkfun esp32
 
 #include <WiFi.h>
 
-const char* ssid     = "ssid2222";
-const char* password = "pass2222";
+const char* ssid     = "********";
+const char* password = "********";
 
 WiFiServer server(80);
 
