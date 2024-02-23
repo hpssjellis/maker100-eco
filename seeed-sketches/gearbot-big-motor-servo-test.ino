@@ -29,6 +29,7 @@ int mySecurityDelay = 3000;
 void setup() {
   
     myServo_D2.attach(D2); // D2 should do PWM on Portenta
+    Serial.begin();
     pinMode(D3, OUTPUT);   // digital 0 to 1
     pinMode(D5, OUTPUT);   // PWM 0 to 255
     pinMode(D6, OUTPUT);   // digital 0 to 1
