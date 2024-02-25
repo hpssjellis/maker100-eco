@@ -24,6 +24,16 @@ I only need 15 sets for very few items like the basics microcontrollers, breadbo
 
 1. $13.99 USD [Seeedstudio XiaoEsp32s](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)  <br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/12fe6ba4-a8f4-4563-ab6d-aa1755d568d6">
 
+1.  $23.89 USD    [Grove Vision AI V2](https://www.seeedstudio.com/Grove-Vision-AI-V2-Kit-p-5852.html)  with RPI camera but not the XIAO sinece we already have those. Feb 2024 I am looking into the Grove Vision AI v2 board as it has a fancy feature to seperate the ML from the arduino coding. <br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/f92b04cb-0857-4389-9a4e-d7807567dfa5">
+
+1. $6.50 USD  [XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Pre-Soldered-p-4747.html)  Definitely not needed but I have a bunch of these super cheap XIAO SAMD boards that I prefer students use when trying new things that might not work. They are also easier to code as no buttons are needed to put it into bootloader mode like the ESP32.  <br><img width="100" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/2d46f328-aa38-42e7-8176-94f9b82f7501">
+
+
+
+
+
+
+
 
 <details closed> <summary>What about the XIAO Expansion board and Round Display?</summary>
    The Seeedstudio <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/">$16.40 USD Exanpsion board</a> and <a href="https://wiki.seeedstudio.com/get_start_round_display/">$18.00 USD Round Display</a> are amazing inexpensive addons to the XIAO-ESP32s3-sense and are very well explained on the Getting started sites listed above. <br><br>I have both for my classrooms and may use them as the year goes on, but I have testing to do to find out if the color round display is as fast as my grayscale OLED and I do not like students using I2C and SPI connectors that come with the expnasion board because the students naturally begin to feel that they can only use sensors and actuators that come with the correct connectors. <br><br>The students for their final projects stay away from new or unusual sensors/actuators  because those sensors do not come with the correct connectors. A possible solution is to have the <a href="https://ca.robotshop.com/products/grove-4-pin-female-jumper-wire">grove-4-pin-female-jumper-wire</a> I would prefer the male pins but it is electrically safer to have the female pins. It also does not help that so many boards use different connectors. I have lots of sensors with connectors that don't work with the grove systems. If you are just starting a course and know that you are going to stick with the <a href="https://wiki.seeedstudio.com/Grove_System/">Grove sensor actuator system</a> and have a few extra connectors on bare wires ordered for new devices then the expansion board might be a great way to teach.<br><br>
