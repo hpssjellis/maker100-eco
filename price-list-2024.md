@@ -193,7 +193,7 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 
 <hr>
 
-#  Old PortentaH7 Course purchases and componenets that will not be taugh in the latest course such as the Ethernet Connectivity or the LVGD monitor connectivity
+#  Old PortentaH7 Course purchases and components that will not be taught in the latest course such as the Ethernet Connectivity or the LVGL monitor connectivity
 
 
 1. $104 USD [Arduino PortentaH7](https://store.arduino.cc/usa/portenta-h7)   <br><img src="https://user-images.githubusercontent.com/5605614/133374580-13deb749-820c-46db-bc04-597c610d2bd0.png" width=100 />
