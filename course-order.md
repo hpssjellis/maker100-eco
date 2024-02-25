@@ -5,6 +5,9 @@
 #####
  Grouped for clarity, I won't teach in this order
 
+Spring 2024 order: basic using the XIAO, then half of senses, then some Machine learning, then half of actuators, then ML onto the XIAO-esp32, then some IoT. 
+THEN I expected all the assignments in order. 2nd term I will start the RAK2270 and the final projects.
+
 ## Basics using the XiaoEsp32s3
 
 ### Machine Learning
