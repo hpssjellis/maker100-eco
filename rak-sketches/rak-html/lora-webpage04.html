@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arduino Text and Image Display</title>
+    <style>
+        /* Inline CSS for basic styling */
+        .container {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .container img {
+            width: 100px; /* Set your desired width here */
+            height: auto; /* This maintains the aspect ratio of the images */
+        }
+        table {
+            width: 100%;
+        }
+        #badData {
+            margin-top: 20px;
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="Connect to Arduino" onclick="myConnect()">
+    <div id="content"></div>
+    <textarea id="badData"></textarea>
+
+    <script>
+
+
+// note: expecting data in the form 
+// "ACool this works"
+// "BAlso this"
+// where the letter is the PNG image label  such as A.png  
+// The text follows the image letter.
+
+
+// global variables	
+        let myPort;
+        let myTimeoutId;
+        const myArray = ['A.png', 'R.png', 'N.png', 'V.png', 'X.png'];   // all the images that are in this directory
+
+        async function myConnect() {
+            if (myPort) {
+                await myPort.close();
+                myPort = null;
+            }
+
+            myPort = await navigator.serial.requestPort();
+            await myPort.open({ baudRate: 115200 });
+
+            while (myPort.readable) {
+                const myReader = myPort.readable.getReader();
+
+        try {
+            while (true) {
+                const { value, done } = await myReader.read();
+                if (done) {
+                    // Start a timeout when 'done' is true
+                    myTimeoutId = setTimeout(function () {
+                        console.log("No more data, closing stream.");
+                        myReader.releaseLock();
+                    }, 50); // wait a short time for more data to be sent     5000 ms = 5 seconds
+                    break;
+                } else {
+                    // If new data arrives, clear the previous timeout
+                    if (myTimeoutId) {clearTimeout(myTimeoutId);}
+                    if (value) {
+                        myHandleData(new TextDecoder().decode(value));
+                    }
+                }
+            }
+        } catch (error) {
+                    console.log('Read error: ' + error);
+                } finally {
+                    myReader.releaseLock();
+                }
+            }
+        }
+
+ function myHandleData(data) {
+            let letter = data.charAt(0);
+            let text = data.substring(1);
+
+            if (myArray.includes(letter + '.png')) {
+                myCreateOrUpdateContainer(letter, text);
+            } else {
+                myHandleBadData(data);
+            }
+        }
+
+        function myCreateOrUpdateContainer(letter, text) {
+            let containerId = 'container_' + letter;
+            let container = document.getElementById(containerId);
+
+            if (!container) {
+                container = document.createElement('span');
+                container.id = containerId;
+                container.className = 'container';
+                container.innerHTML = `
+                  <table>
+                     <tr><td><img src="${letter}.png" title="Image ${letter}"></td>
+                     <td><table id="table_${letter}"></table></td></tr>
+                  </table>
+                     `;
+                document.getElementById('content').appendChild(container);
+            }
+
+            let table = document.getElementById('table_' + letter);
+            table.style.border = "1px solid blue"            
+            table.style.width = "200px"
+            let newRow = table.insertRow();
+            let newCell = newRow.insertCell();
+            newCell.textContent = text;
+        }
+
+        function myHandleBadData(data) {
+            let badDataArea = document.getElementById('badData');
+            badDataArea.value += data + '\n'; // Append new bad data with a newline
+        }
+
+
+    </script>
+</body>
+</html>

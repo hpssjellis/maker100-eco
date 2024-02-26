@@ -1,0 +1,475 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>  
+   // Global CVariables
+   let exports = {};  // really important for WebSerial and Polyfill
+   let myCounter = 0;
+   let myMultiCSV = true
+
+   const myImageArray = ['A.png', 'B.png', 'F.png', 'R.png', 'N.png', 'V.png', 'X.png'];   // all the images that are in this directory
+
+   let myInterval = setInterval(function () {document.getElementById('myIncomingButton').click()}, 2000);
+
+
+
+
+ mySpecialVar = '' 
+    
+
+
+</script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+  
+ <title>Rakwireless RAK2270 Sticker Tracker Text and Image Display</title>
+    <style>
+        /* Inline CSS for basic styling */
+        .container {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .container img {
+            width: 100px; /* Set your desired width here */
+            height: auto; /* This maintains the aspect ratio of the images */
+        }
+        table {
+            width: 100%;
+        }
+        #badData {
+            margin-top: 20px;
+            width: 80%;
+            height: 100px;
+        }
+    </style>
+    
+
+</head>
+<body>
+<h1 align=center>RAK2270 Sticker Tracker LoRa P2P by Jeremy Ellis </h1>
+
+
+
+<div id="content"></div>
+
+
+Allowed first letter (converts to an image): <input type="text" id="myImageNameList" value="" size="70" READONLY>  <br>
+   
+<button id="connectButton"  style="background-color:lime; width:200px; ">Connect via Serial Port</button><br>
+
+<!--
+  
+<input type=text id="mySendText" value="start">
+<input type=button value="send" onclick="{ mySendIt(document.getElementById('mySendText').value) }"><br><br>
+
+-->
+
+<input id="myIncomingButton" type=button value="Check Incoming Data" onclick="{
+  let myInArray = document.getElementById('myArea01').value.split(/\r?\n|\r|\n|\0/g)     ///\0.*$/g
+  console.log(myInArray)
+
+  for (myLoop in myInArray) {
+       myHandleData(myInArray[myLoop]);     
+  }
+   document.getElementById('myArea01').value = ''
+   
+}">
+
+
+<input type=button value="Clear" onclick="{
+    document.getElementById('myArea01').value = ''                                                                                            
+}">
+
+
+<br>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+<br>
+  Incoming data here:<BR>
+<textarea id="myArea01" rows=6 cols=120></textarea>
+<br><br>
+
+Data to ignore:<BR>
+<textarea id="badData"></textarea>
+<br>
+
+<span id="mySpanResults">...</span>
+    
+
+<!-- <canvas id="myChart" width="700" height="300"></canvas> -->
+<div id="myChart" style="width:1000px; height:300px"></div>
+
+
+
+
+
+
+   
+ 
+<div id="mySpanClassify">...</div>
+
+<script>
+
+ 
+function myTextGrow(myT, myB){
+   var myCursorStart = document.getElementById(myT).selectionStart
+   var myCursorEnd = document.getElementById(myT).selectionEnd
+
+  // myDivName = myB.replace('Code','')
+   //document.getElementById(myT).value = mySpecialVar  + document.getElementById(myB).innerHTML 
+  // document.getElementById(myT).value += '<div id=\''+myDivName+'\'>...</div><br>'     
+
+   
+
+
+   document.getElementById(myT).value = document.getElementById(myB).innerHTML 
+
+   
+   setTimeout(function() {
+      while (  document.getElementById(myT).clientHeight < document.getElementById(myT).scrollHeight){                                                                                                                                              
+          document.getElementById(myT).rows += 3; 
+      } 
+   }, 100)
+
+  document.getElementById(myT).selectionStart = myCursorStart
+  document.getElementById(myT).selectionEnd = myCursorEnd
+
+}  
+
+
+</script>  
+
+
+ 
+   
+<div id="myShowModelDiv" >...</div>  <br>
+
+ 
+<span id="mySpanExport">...</span>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+ <!-- --------------------------------- End of regular webpage tags with Javascript as events -------------------------------------------------------  -->       
+ <!-- --------------------------------- Start of pure Javascript coding -----------------------------------------------------------------------------  -->           
+
+<script>
+
+
+   /////////////////////////////////////// End of user code ///////////////////////////////////////////   
+
+  /////////////////////////////////////// webSerial code starts ///////////////////////////////////////////
+  
+  //Global Variables
+  //let writer;  
+  let port
+  
+
+document.getElementById('connectButton').addEventListener('click', () => {
+  if (navigator.serial) {
+    connectSerial();
+  } else {
+    document.getElementById('myDiv01').innerHTML = 'Web Serial API not supported. Switching to Polyfill<br>'
+    myPoly()
+
+  }
+});
+
+
+async function connectSerial() {
+  try {
+    port = await navigator.serial.requestPort();
+    await port.open({ baudRate: 115200 });
+
+    const decoder = new TextDecoderStream(); 
+    port.readable.pipeTo(decoder.writable);
+
+    const inputStream = decoder.readable;
+    const reader = inputStream.getReader();
+    
+    while (true) {
+      const { value, done } = await reader.read();
+   //   if (value && !/^\s*$/g.test(value)) { // Check if value is not just whitespace or carriage return
+               // Check if value is not just a line feed or carriage return
+    //  if (!/^[\r\n]*$/g.test(value)) { 
+    //   console.log(value)
+      if (!/^[\r]*$/g.test(value)) { 
+        if (myMultiCSV) {
+            document.getElementById('myArea01').value += value;
+        } else {
+           document.getElementById('myArea01').value += value;
+           mySaveCSV(document.getElementById('myEnteredFileName').value);
+           keepOneLine();
+        }
+      }
+      if (done) {
+        console.log('[readLoop] DONE', done);
+        reader.releaseLock();
+        break;
+      }
+    }
+  } catch (error) {
+    document.getElementById('myArea01').value = error;
+  }
+}
+
+
+
+
+   
+  
+async function mySendIt(myData) {  
+  if (navigator.serial) {  
+    const encoder = new TextEncoder();
+    const writer = port.writable.getWriter();
+    await writer.write(encoder.encode(myData));
+    writer.releaseLock();
+    console.log(myData);
+    document.getElementById('mySendText').value = myData
+  } else {
+    mySend(myData)
+  }
+
+} 
+  
+  
+///////////////////////////////////////// end webSerial //////////////////////////////////////////
+///////////////////////////////////////// start polyfill for Android ////////////////////////////
+  
+  
+  
+  //Global Variables for Polyfill
+  var serial = exports.serial;  // is this needed as defined in the npm
+ 
+  let myLooping  // for read setinterval
+  var mySerial;
+  //let receivedText = '';
+  let reader = {};
+  let writer = {};
+  
+   str2ab = function(str) {
+    var buf = new Uint8Array(str.length); // 1 byte for each char
+    for (var i=0, strLen=str.length; i < strLen; i++) {
+      buf[i] = str.charCodeAt(i);
+    }
+    return buf;
+  }
+
+  ab2str = function(buf) {
+    return String.fromCharCode.apply(null, buf);
+  } 
+  
+  
+  
+async function myRead(){  
+    reader.read().then(({value}) => {        
+        let receivedText = ab2str(value);
+        document.getElementById('target').innerHTML = receivedText + '<br>' + document.getElementById('target').innerHTML // latest on top
+      },
+      error => {
+      console.error('error from read', error)
+     document.getElementById('myDiv01').innerHTML = 'error from read' + error
+     }
+    );
+}
+  
+   
+  
+async function myPoly(){  
+    mySerial = await serial.requestPort()
+                                                                     
+    document.getElementById('myDiv01').innerHTML += await '<b>mySerial: </b><br><pre>' +  JSON.stringify(mySerial, null, 3) + '</pre><br><br>'      
+                                            
+                                                                                     
+    console.log('mySerial')                    
+    console.log(mySerial)   
+
+    const myOpen = await mySerial.open({baudRate: 115200});
+    reader = mySerial.readable.getReader();                                              
+    writer = mySerial.writable.getWriter();    
+                                            
+    const results = mySerial.getInfo();
+    
+    //document.getElementById('myDiv01').innerHTML += await 'Results:<b>: </b><br><pre>' +  JSON.stringify(results, null, 3) + '</pre><br><br>'                                          
+    console.log('get info results', results);
+    document.getElementById('myDiv01').innerHTML += 'results.usbVendorId: ' + results.usbVendorId + '<br>'
+    document.getElementById('myDiv01').innerHTML += 'results.usbProductId: ' + results.usbProductId + '<br>'
+ 
+    
+    // start looping the serial read. Is there a better way to do this?
+    clearInterval(myLooping)
+    myLooping = setInterval(myRead, 1000); 
+  }
+        
+ async function mySend(myData2){  
+    writer.ready.then(() => {                                         
+      let inputArrayBuffer = str2ab(myData2);
+      const myWritten = writer.write(inputArrayBuffer);
+      console.log('myWritten')
+      console.log(myWritten)
+        
+      document.getElementById('mySendText').value = myData2      // check if this works                           
+      //document.getElementById('myDiv01').innerHTML = '<br><br><b>myWriter: </b><br><pre>' +  JSON.stringify(myWritten, null, 3) + '</pre><br><br>'  
+                                            
+   
+    })    
+} 
+  
+/////////////////////////////////////// end Polyfill for Android ////////////////////////////////  
+
+
+
+
+
+
+////////////////////////////////////////////////////////  END OF GENERAL STUFF //////////////////////////////////////////////////////////////  
+////////////////////////////////////////////////////////  START RAKWIRELESS STUFF //////////////////////////////////////////////////////////////  
+
+
+
+
+
+
+// startup stuff
+
+   
+  // document.getElementById('myImageNameList').value = 'wow'  // myImageArray.toString();
+   document.getElementById('myImageNameList').value = myImageArray.toString();
+
+
+
+
+ function myHandleData(data) {
+            let letter = data.charAt(0);
+            let text = data.substring(1);
+
+            if (myImageArray.includes(letter + '.png')) {
+                myCreateOrUpdateContainer(letter, text);
+            } else {
+                myHandleBadData(data);
+            }
+        }
+
+        function myCreateOrUpdateContainer(letter, text) {
+            let containerId = 'container_' + letter;
+            let container = document.getElementById(containerId);
+
+            if (!container) {
+                container = document.createElement('span');
+                container.id = containerId;
+                container.className = 'container';
+                container.innerHTML = `
+                  <table>
+                     <tr><td><img src="${letter}.png" title="Image ${letter}"></td>
+                     <td><table id="table_${letter}"></table></td></tr>
+                  </table>
+                     `;
+                document.getElementById('content').appendChild(container);
+            }
+
+            let table = document.getElementById('table_' + letter);
+            table.style.border = "1px solid blue"            
+            table.style.width = "600px"
+            let newRow = table.insertRow();
+
+
+           
+          //  newCell.textContent =  text;
+
+             let now = new Date();
+             let dateString = now.toLocaleDateString();
+             let timeString = now.toLocaleTimeString();
+         
+             myCounter++;
+
+
+
+
+           
+          //   let newCell = newRow.insertCell();
+          //   newCell.textContent = `#${myCounter}: ${text} - ${dateString} ${timeString} `;
+
+
+             let newCellCount = newRow.insertCell();
+             newCellCount.textContent = `#${myCounter}`;
+             let newCellData = newRow.insertCell();
+             newCellData.textContent = `${text}`;
+             let newCellDate = newRow.insertCell();
+             newCellDate.textContent = `${dateString}`;
+             let newCellTime = newRow.insertCell();
+             newCellTime.textContent = `${timeString}`;
+
+
+           
+           
+
+
+           
+        }
+
+        function myHandleBadData(data) {
+            let badDataArea = document.getElementById('badData');
+            badDataArea.value += data + '\n'; // Append new bad data with a newline
+        }
+
+
+
+
+  
+</script>
+
+
+
+
+ 
+
+
+
+
+
+
+   
+Use at your own risk!<br>
+By Jeremy Ellis @rocksetta<br>
+
+</body>
+</html>
