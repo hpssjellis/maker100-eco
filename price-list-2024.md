@@ -295,7 +295,7 @@ This little clip helped my put the XIAO-Esp32s3 into boot loader mode. Download 
 
 
 
-Recently I improved the clip to  [seeed-sketches/xiao-big-clip-clip11b.stl](./seeed-sketches/xiao-big-clip-clip11b.stl)
+Recently I improved the clip to  [seeed-sketches/xiao-big-clip-clip11b.stl](./seeed-sketches/xiao-big-clip-clip11b.stl)   I tried to make it tighter onto the XIAO and labelled with boot and reset but the other versions were not as good as this one.
 
 <img width="89" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/2d273502-f354-4081-acac-e258c34d29c5">
 
