@@ -295,14 +295,9 @@ This little clip helped my put the XIAO-Esp32s3 into boot loader mode. Download 
 
 
 
-Recently I improved the clip to  [seeed-sketches/XIAO-esp32s3-pin-hold01-v04.stl](./seeed-sketches/xiao-big-clip-clip11 (1).stl)
+Recently I improved the clip to  [seeed-sketches/xiao-big-clip-clip11b.stl](./seeed-sketches/xiao-big-clip-clip11b.stl)
 
 <img width="89" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/2d273502-f354-4081-acac-e258c34d29c5">
 
 
 
-<hr>
-
-![image](https://github.com/hpssjellis/maker100-eco/assets/5605614/2d273502-f354-4081-acac-e258c34d29c5)
-
-https://github.com/hpssjellis/mcu-stable-edu-launch/blob/main/xiao-esp32s3/XIAO-esp32s3-pin-hold01-v04.stl
