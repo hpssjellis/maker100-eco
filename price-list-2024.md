@@ -197,6 +197,9 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 #  Old PortentaH7 Course purchases and components that will not be taught in the latest course such as the Ethernet Connectivity or the LVGL monitor connectivity
 
 
+<details closed> <summary>OLD PORTENTAH7 COURSE PRICE LIST</summary> 
+
+
 1. $104 USD [Arduino PortentaH7](https://store.arduino.cc/usa/portenta-h7)   <br><img src="https://user-images.githubusercontent.com/5605614/133374580-13deb749-820c-46db-bc04-597c610d2bd0.png" width=100 />
 
 1. $63.00 USD [LoRa Vision Shield](https://store.arduino.cc/usa/portenta-vision-shield-lora)     <br><img src="https://user-images.githubusercontent.com/5605614/133374592-36bb6dfd-ec10-4796-b998-782b58ce8730.png" width=100 />
@@ -269,10 +272,20 @@ Note: I only purchase a few of the versions above with the clips and the RAKDAP1
 Reminder the star "*" beside a material means that in general you don't need the device for every student or pair of students just a few in the lab is good enough.
 
 
+
+
+
+
+
 Total about $4000 USD to get the one full set of equipment.
 Without the starred items my course would cost about $500 per pair of students. While the lab would need about $5000 worth of starred equipment.
 
+
 This is not a perfect list as a few of these items will need to be tested in 2024.
+
+
+
+</details>
 
 
 
@@ -280,7 +293,7 @@ This is not a perfect list as a few of these items will need to be tested in 202
 ## 3D prints
 
 
-This little clip helped my put the XIAO-Esp32s3 into boot loader mode. Download .stl file [seeed-sketches/XIAO-esp32s3-pin-hold01-v04.stl](./seeed-sketches/XIAO-esp32s3-pin-hold01-v04.stl)
+This little clip helped me put the XIAO-Esp32s3 into boot loader mode. Download .stl file [seeed-sketches/XIAO-esp32s3-pin-hold01-v04.stl](./seeed-sketches/XIAO-esp32s3-pin-hold01-v04.stl)
 
 <img width="89" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/9c946ce7-032e-4728-9add-4b5a4cfbda98">   <br>
 
