@@ -1,8 +1,8 @@
 // Instructions:
 // Connect Arduino 1's SDA to Arduino 2's SDA
 // Connect Arduino 1's SCL to Arduino 2's SCL
-// Upload Receiver.ino to Arduino 1
-// Upload Transmitter.ino to Arduino 2
+// Upload seeed-i2c-2xiao-receiver.ino to Arduino 1
+// Upload seeed-i2c-2xiao-transmitter.ino to Arduino 2
 // Watch Serial Monitor on Arduino 1
 
 #include <Wire.h>
