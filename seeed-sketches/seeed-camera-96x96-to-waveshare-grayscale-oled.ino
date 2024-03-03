@@ -74,6 +74,13 @@ typedef enum {
 
 */
 
+
+/* Includes ---------------------------------------------------------------- */
+#include <ei-v36-fomo-eyes-96-96-grovea1v1_inferencing.h>
+#include "edge-impulse-sdk/dsp/image/image.hpp"
+
+
+
 #include "esp_camera.h"
 
 
