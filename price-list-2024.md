@@ -1,7 +1,8 @@
 
 
 
-# NOT YET UPDATED FOR THE XioaEsp32s3-Sense AND RAK2270 MICROCONTROLLERS!
+# NOT YET FULLY TESTED FOR THE XioaEsp32s3-Sense AND RAK2270 MICROCONTROLLERS!
+Although the XIAO is farily close.
 
 For the course [maker100-eco](./) a cheaper version of my [Arduino PortentaH7](https://github.com/hpssjellis/maker100) course
 
