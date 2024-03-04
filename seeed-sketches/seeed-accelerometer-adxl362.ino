@@ -5,13 +5,6 @@
 
 // VIN: 3V3 
 // GND: GND 
-// SCL: D8 (SCK) 
-// SDA: D10 (MOSI) 
-// SDO: D9 (MISO) 
-// CS: D7 (SS) 
-
-
-// or
 // D10  MOSI
 // D9 MISO
 // D8 SCK
