@@ -2,13 +2,14 @@
 // Connect the ADXL362 breakout: 
 
 // For the XIAO ESP32S3 Sense 
+//Label: Pin to use
 
 // VIN: 3V3 
 // GND: GND 
-// D10  MOSI
-// D9 MISO
-// D8 SCK
-// D7 SS
+// MOSI: D10 
+// MISO: D9 
+// SCK: D8
+// SS: D7
 
 // INT1: no connection 
 
