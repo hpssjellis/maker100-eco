@@ -33,6 +33,9 @@ AT+BOOT Description: Bootloader mode
 
 AT+RUN will reset from bootloader mode. (similar to AT+RESET)
 
+
+at+DEBUG=1    set debug mode
+
 AT+DEVEUI=? Description: Device EUI
 
 AT+APPEUI=? Description: Application identifier
@@ -85,6 +88,73 @@ AT+BAND=?	Description: Active region
 
 There are a ton more AT commands. Does anyone else know about any that are really useful.
 
-The P2P AT commands also look interesting.
 
-AT+NWM=?  Description: LoRa network work mode[0:Point-to-point, 1:LoRaWAN].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The P2P AT commands also look interesting.
+
+https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#at-nwm
+
+
+
+AT+NWM=?  Description: LoRa network work mode[0:LoRa Point-to-point, 1:LoRaWAN].
+
+For p2p must switch to p2p mode AT+NWM=0
+
+
+AT+P2P=?     View P2P all parameters     <Frequency>:<Spreading Factor>:<Bandwidth>:<Code Rate>:<Preamble Length>:<TX Power>
+
+
+AT+PFREQ=?     P2P mode frequency       AT+PFREQ=915000000
+
+
+AT+PSF=?     P2P mode spreading factor     5-12
+
+AT+PBW=?     P2P mode bandwidth      (LORA: 0 = 125, 1 = 250, 2 = 500, 3 = 7.8, 4 = 10.4, 5 = 15.63, 6 = 20.83, 7 = 31.25, 8 = 41.67, 9 = 62.5 FSK: 4800-467000)
+
+AT+PCR=?    P2P mode code rate     (0=4/5, 1=4/6, 2=4/7, 3=4/8)
+
+AT+PPL=?     P2P mode preamble length     (5-65535)   default = 8         AT+PPL=8
+
+AT+PTP=?       P2P mode TX power    TX power (5-22)
+
+
+
+AT+PSEND=112233      P2P send data  
+
+AT+SYNCWORD=?    P2P Syncword in P2P Mode
+
+AT+PRECV=?       codes for P2P received data   
+AT+PRECV=0    only transmit mode
+AT+PRECV=30000   read data for 30 seconds
+
+AT+PRECV=65534   continuously read incoming data never switch to outgoing
+AT+PRECV=65535   wait for data without timeout but switch to transmit when it receives anything
+
+
+
+AT+ENCRY=?   P2P mode encryption.     0 default no encryption    1 encryption
+
+AT+ENCKEY=?    P2P Encryption Key
+AT+ENCKEY=01020304050607080102030405060708   (you make your own 16 hex key, but all nodes need the same key)
+
+
+
+AT+PCRYPT=?   P2P crypt status
+
+
+AT+RFFREQUENCY=?   Frequency in P2P Mode       AT+RFFREQUENCY=915000000
+
+lots more commands
