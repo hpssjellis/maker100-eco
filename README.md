@@ -324,7 +324,7 @@ Needs testing, might need a Linux computer to run the ML programs.
 
 | Topic | Example Code| Video | Instructions and Prompt |
 |:---|:---|:---|:---|
-| &#9744;  <a name="0" href="0">`a55`</a>  RAK Read values  |      |     | Use the RAK rig and connect to the Arduino serial monitor to read all the present set LoRa and LoRaWan variables   |
+| &#9744;  <a name="0" href="0">`a55`</a>  RAK Read values and Hello Serial Monitor  |  [rak-hello-serial.ino](rak-sketches/rak-hello-serial.ino) <br>also for AT commands  look at [rak-at-commands.md](rak-sketches/rak-at-commands.md)   |     | Get used to uploading code by serial monitor "AT+BOOT". To reset code typoe "AT+RUN" Use the RAK rig and connect to the Arduino serial monitor to read all the present set LoRa and LoRaWan variables   |
 | &#9744;  <a name="0" href="0">`a56`</a>  (Optional) RAK2270StickerTracker [trackpac.io](https://trackpac.eu.auth0.com/u/login) setup   |      |     |  If you have the original RAK2270 Sticker Tracker with TrackPac.io then set it up and monitor your deivce   |
 | &#9744;  <a name="0" href="0">`a57`</a>  Machine learning motion x,y,z two label tinyML model   |      |     | This is advanced and uses the static website [tinyMLjs for the RAK2270StickerTracker](https://hpssjellis.github.io/tinyMLjs/public/acceleration/a00-best-acceleration-rak2270-sticker-tracker.html)   |
 | &#9744;  <a name="0" href="0">`a58`</a>  LoRa webSerial reciever   |      |     | Another advanced use of a static website and webSerial to connect one sticker tracker to receive P2P LoRa information from the other motion machine learning trained devices  |
