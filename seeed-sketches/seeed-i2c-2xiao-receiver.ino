@@ -13,21 +13,21 @@
 uint8_t received = 0; 
 
 void receiveEvent(int bytes) { 
-  received = Wire.read(); 
-  Serial.println(String(received)); 
+  received = Wire.read(); 
+  Serial.println(String(received)); 
 } 
 
  
 void setup() { 
-  Serial.begin(115200); 
-  Wire.begin(receiverAddress); 
-  Wire.onReceive(receiveEvent); 
+  Serial.begin(115200); 
+  Wire.begin(receiverAddress); 
+  Wire.onReceive(receiveEvent); 
 } 
 
 
 void loop() { 
- // Serial.println(String(received)); 
- // delay(500); 
+//Serial.println(String(received)); 
+//delay(500); 
 } 
 
  
