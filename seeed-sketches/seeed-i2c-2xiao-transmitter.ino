@@ -1,3 +1,5 @@
+// seeed-i2c-2xiao-transmitter.ino
+
 // Instructions: 
 // Connect Arduino 1 receiver GND to Arduino 2 transmitter GND
 // Connect Arduino 1 receiver 3V3 to Arduino 2 transmitter 3V3 
