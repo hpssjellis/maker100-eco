@@ -14,26 +14,24 @@
 uint8_t counter = 0; 
 
 void setup() { 
-  Serial.begin(115200); 
-  Wire.begin(); 
+  Serial.begin(115200); 
+  Wire.begin(); 
 } 
 
  
 
 void loop() { 
-  counter++; 
-  if (counter > 255) { 
-    counter = 0; 
-  } 
+  counter++; 
+  if (counter > 255) { 
+    counter = 0; 
+  } 
 
-  Wire.beginTransmission(receiverAddress); 
-  Wire.write(counter); 
-  Wire.endTransmission(); 
+  Wire.beginTransmission(receiverAddress); 
+  Wire.write(counter); 
+  Wire.endTransmission(); 
 
-  delay(500); 
+  delay(500); 
 
 } 
-
- 
 
  
