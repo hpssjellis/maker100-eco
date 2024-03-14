@@ -37,7 +37,7 @@ void loop() {
   Wire.beginTransmission(receiverAddress); 
   Wire.write(counter); 
   Wire.endTransmission(); 
-
+  Serial.println("Sent "+String(counter)); 
   delay(500); 
 
 } 
