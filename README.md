@@ -338,7 +338,7 @@ Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-| &#9744;  <a name="0" href="0">`a60`</a>  LoRa Test   |      |     | Your device should be able to send data to your teachers device over a local P2P LoRa network  |
+| &#9744;  <a name="0" href="0">`a60`</a>  LoRa P2P Test   |  [rak-hack06.ino](rak-sketches/rak-hack06.ino)   |     | Your device should be able to send data to your teachers device over a local P2P LoRa network  |
 | &#9744;  <a name="0" href="0">`a61`</a>  Run Temperature and humidity   |      |     |     |
 | &#9744;  <a name="0" href="0">`a62`</a>  LoRaWan Test   |   [lorawan-test-08-byte-xyz-mapped.ino](rak-sketches/lorawan-test-08-byte-xyz-mapped.ino)   |     |  This gets confusing, but setup a full LoRaWan, Helium to Adafruit.io connection pipeline to read both the temperature and humidity data from the Sticker Tracker   |
 | &#9744;  <a name="0" href="0">`a63`</a>  Run xyz acceleration   |      |     |    |
