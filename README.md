@@ -338,7 +338,7 @@ Students are encouraged to work ahead of the class.
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
 | &#9744;  <a name="0" href="0">`a60`</a>  LoRa P2P Test   |  [rak-hack06.ino](rak-sketches/rak-hack06.ino)   |     | Your device should be able to send data to your teachers device over a local P2P LoRa network  |
-| &#9744;  <a name="0" href="0">`a61`</a>  Run Temperature and humidity   |      |     |     |
+| &#9744;  <a name="0" href="0">`a61`</a>  Run NTC Temperature and Battery Voltage   |  [RAK-NTC-temp.ino](rak-sketches/RAK-NTC-temp.ino)   |     |  Code prints out the battery voltage and board temperature. This gives us a chance to test other battery sources. Reminder anything over 5V may damage this board and even 5V might not work well. Research max and minimum acceptable votages.   |
 | &#9744;  <a name="0" href="0">`a62`</a>  LoRaWan Test   |   [lorawan-test-08-byte-xyz-mapped.ino](rak-sketches/lorawan-test-08-byte-xyz-mapped.ino)   |     |  This gets confusing, but setup a full LoRaWan, Helium to Adafruit.io connection pipeline to read both the temperature and humidity data from the Sticker Tracker   |
 | &#9744;  <a name="0" href="0">`a63`</a>  Run xyz acceleration   | [rak-accel-imu.ino](rak-sketches/rak-accel-imu.ino)     |     | Fairly easy acceleration x, y, z example. Only problem here is the Rak clip does not work well with motion. the teacher should have a few boards with soldered wires that can be used well with motion.   |
 |  &#9744; <a name="0" href="0">`a64`</a>  Sensor Fusion   |      |     | Run code with all the Sensors on the RAK2270: temperature, Humidity, 3 axis IMU: motion (xyz)  |
