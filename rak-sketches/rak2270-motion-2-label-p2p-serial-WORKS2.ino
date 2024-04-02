@@ -181,31 +181,26 @@ if (myCurrentIndex % NUMBER_OF_INPUTS == 0) {   // slows down showing the result
   Serial.print("Predicted: "+String(myPredict)  );  // output with minimal formating
  // Serial.println(String(ml.output[0]) );  
  // Serial.println("--" );  
-  Serial.println(", same as Label[0]=1flat:"+String(myOutput[0]) + ", label[1]=2side::" + String(myOutput[1])  );  // output for plotter minimal formating
+  Serial.print(", same as Label[0]=1flat:"+String(myOutput[0]) + ", label[1]=2side::" + String(myOutput[1])  );  // output for plotter minimal formating
   
   if (myPredict > 0.50) {  
     digitalWrite(LED_BUILTIN, LOW);    // on for portenta, off for Nano33BleSense, Send for RAK2270-sticker-tracker
-    mySendLoRaP2P();
+
+    Serial.println(" Send UP"  );  
+     uint8_t payload[] = "AUp"; // {0x31, 0x34, 0x31, 0x36, 0x31}; // Hex representation of "314161
+     service_lora_p2p_send(payload, sizeof(payload), false);
 }
 else {
     digitalWrite(LED_BUILTIN, HIGH);
+    Serial.println(" Send Down"  );  
+    uint8_t payload[] = "ADown"; 
+    service_lora_p2p_send(payload, sizeof(payload), false);
   }
-  delay(40);  // just to slow it a bit
+  delay(20000);  // just to slow it a bit
 }
 
 }
 
-
-void mySendLoRaP2P() {
-  // Define the payload
-  uint8_t payload[] = {0x31, 0x34, 0x31, 0x36, 0x31}; // Hex representation of "314161"
-
-  // Send the payload using the service_lora_p2p_send function
-  service_lora_p2p_send(payload, sizeof(payload), false);
-
-  // Add a delay to avoid continuously sending data
-  delay(5000); // 5-second delay
-}
 
 
 
