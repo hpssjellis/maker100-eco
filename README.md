@@ -362,34 +362,7 @@ Students are encouraged to work ahead of the class.
 
 ## Unsorted Rak2270 Videos
 
-AT commands done
-   [<img src="https://img.youtube.com/vi/lDYUIPRGT6k/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=lDYUIPRGT6k&list=PL57Dnr1H_egt9XmHjfcyRR4YCo3eGrZwQ&index=6&pp=gAQBiAQB)  
-   
-Start RAK2270  done
-   [<img src="https://img.youtube.com/vi/Eye5zlfl3I8/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=Eye5zlfl3I8&list=PL57Dnr1H_egt9XmHjfcyRR4YCo3eGrZwQ&index=7&pp=gAQBiAQB)  
 
-voltage done
-   [<img src="https://img.youtube.com/vi/1eSEkwWMcjE/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=1eSEkwWMcjE&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=2&pp=iAQB)  
-
-
-   IMU done
-   [<img src="https://img.youtube.com/vi/hr-YT-qImJ4/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=hr-YT-qImJ4&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=3&pp=iAQB)  
-
-
-      switching done
-   [<img src="https://img.youtube.com/vi/7RiPQgiWXkc/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=7RiPQgiWXkc&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=4&pp=iAQB)  
-
-   sending P2P  done
-   [<img src="https://img.youtube.com/vi/dXM0W2zT288/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=dXM0W2zT288&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=6&pp=iAQB)  
-   
-   static webpage done
-   [<img src="https://img.youtube.com/vi/kTSe-4Z0Ewo/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=kTSe-4Z0Ewo&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=7&pp=iAQB)  
-
-
-   debugger done
-   [<img src="https://img.youtube.com/vi/fUlx79bOjNs/hqdefault.jpg" width=100 />](https://www.youtube.com/watch?v=fUlx79bOjNs&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=8&pp=iAQB)  
-
-   
 
    
 <br><br><br>
