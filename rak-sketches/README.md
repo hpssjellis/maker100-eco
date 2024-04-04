@@ -18,10 +18,10 @@ Note: The machine learning code is from this github Arduino Library    https://g
 ## Wires to RAK270 AStcker Tracker RAKDAP1 with RAKCLIP
 
 RAKDAP1   Color Wire  RAK2270 Board and RakClip
-3V3       RED         VCC
-GND       Black       GND
-U_RX      Brown       TX
-U_TX      Orange      RX
+3V3       RED         VCC  
+GND       Black       GND  
+U_RX      Brown       TX  
+U_TX      Orange      RX  
 
 
 
