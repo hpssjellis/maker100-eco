@@ -40,12 +40,21 @@ AT command reminders
 
 
 
-| RAKDAP1   |      Color Wire      |
-|:----------|:-------------:|
+| AT Command  |    Description      |
+|:----------|:-------------|
 | 3V3 |  RED |
 | GND |    BLACK   
 | U_RX | Brown 
 | U_TX | ORANGE |
+| ATZ | restarts  |
+| AT+BOOT | into boot mode |
+| AT+RUN | out of boot mode |
+| AT+? | AT command help |
+| ATE | Toggle echo AT commands |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 
 
