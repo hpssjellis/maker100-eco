@@ -37,6 +37,21 @@ Note: The machine learning code is from this github Arduino Library    https://g
 
 AT command reminders
 
+
+
+
+| RAKDAP1   |      Color Wire      |
+|:----------|:-------------:|
+| 3V3 |  RED |
+| GND |    BLACK   
+| U_RX | Brown 
+| U_TX | ORANGE |
+
+
+
+
+
+
 ATZ     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  restarts   
 AT+BOOT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  into boot mode   
 AT+RUN  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  out of boot mode   
