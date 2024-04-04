@@ -10,6 +10,8 @@ https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main
 
 and in the board manager search for "rak stm32"  
 
+MAKE SURE YOUR SERIAL MONITOR IS ON 115200  Hz
+
 For wire connections check this chart
  
 RAKDAP1   Color Wire  RAK2270 Board and RakClip
