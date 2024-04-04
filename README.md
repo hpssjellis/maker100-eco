@@ -308,7 +308,7 @@ Note: The actual sticker tracker would not be needed for a one hour session
 
 | Topic | Example Code| Video | Instructions and Prompt|
 |:---|:---|:---|:---|
-| &#9744;  <a name="0" href="0">`a54`</a>  Overview of the Rak2270   |      |     | TrackPac, 1663, LoRaWan, then P2P LoRa Motion Machine Learning using TinyMLjs, WebSerial LoRa Summary  |
+| &#9744;  <a name="0" href="0">`a54`</a>  Overview of the Rak2270   | Reminder of basic AT commands and RAKDAP1 wiring to RAK2270 <br> [rak-sketches/README.md](rak-sketches/README.md)    |     | TrackPac, 1663, LoRaWan, then P2P LoRa Motion Machine Learning using TinyMLjs, WebSerial LoRa Summary  |
  
 <br><br><br>using one RAK2270 as the P2P receiver
 
