@@ -337,7 +337,7 @@ Students are encouraged to work ahead of the class.
 
 | Topic | Example Code| Video | Instructions |
 |:---|:---|:---|:---|
-| &#9744;  <a name="0" href="0">`a60`</a> LoRaWan and LoRa P2P Test   |  [rak-hack06.ino](rak-sketches/rak-hack06.ino)   |   [<img src="https://img.youtube.com/vi/7RiPQgiWXkc/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=7RiPQgiWXkc&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=4&pp=iAQB)     | Shows many AT commands and switches between LoRaWan and LoRa settings. Your device should be able to send data to your teachers device over a local P2P LoRa network  |
+| &#9744;  <a name="0" href="0">`a60`</a> LoRaWan and LoRa P2P Test   |  [rak-hack06.ino](rak-sketches/rak-hack06.ino)   |   [<img src="https://img.youtube.com/vi/7RiPQgiWXkc/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=7RiPQgiWXkc&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=4&pp=iAQB)     | Shows many AT commands and switches between LoRaWan and LoRa settings. Your device should be able to send data to your teachers device over a local P2P LoRa network Students can try send there teacher their first names. see chart <br>  <img src="https://github.com/hpssjellis/maker100-eco/assets/5605614/cd2d5268-04ae-4e6d-a632-f3762a557026" width = "600px" />  |
 | &#9744;  <a name="0" href="0">`a61`</a>  Run NTC Temperature and Battery Voltage   |  [RAK-NTC-temp.ino](rak-sketches/RAK-NTC-temp.ino)   |   [<img src="https://img.youtube.com/vi/1eSEkwWMcjE/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=1eSEkwWMcjE&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=2&pp=iAQB)     |  Code prints out the battery voltage and board temperature. This gives us a chance to test other battery sources. Reminder anything over 5V may damage this board and even 5V might not work well. Research max and minimum acceptable votages.   |
 | &#9744;  <a name="0" href="0">`a62`</a>  LoRaWan Test   |   [lorawan-test-08-byte-xyz-mapped.ino](rak-sketches/lorawan-test-08-byte-xyz-mapped.ino)   |     |  This gets confusing, but setup a full LoRaWan, Helium to Adafruit.io connection pipeline to read both the temperature and humidity data from the Sticker Tracker   |
 | &#9744;  <a name="0" href="0">`a63`</a>  Run xyz acceleration   | [rak-accel-imu.ino](rak-sketches/rak-accel-imu.ino)     |    [<img src="https://img.youtube.com/vi/hr-YT-qImJ4/hqdefault.jpg" width=600 />](https://www.youtube.com/watch?v=hr-YT-qImJ4&list=PL57Dnr1H_egsfctG_K8AQ9uGhaLsTth6x&index=3&pp=iAQB)   | Fairly easy acceleration x, y, z example. Only problem here is the Rak clip does not work well with motion. the teacher should have a few boards with soldered wires that can be used well with motion.   |
@@ -383,6 +383,8 @@ Students are encouraged to work ahead of the class.
 
 
  <img src="https://github.com/hpssjellis/maker100-eco/assets/5605614/a285279d-19f9-47ff-9b64-00c4b8f26087" width = "100%" /> 
+
+ 
 
 
 
