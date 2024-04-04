@@ -98,7 +98,7 @@ Note: The machine learning code is from this github Arduino Library    https://g
 |   |   |
 | AT+PSEND=616241422031327A  | P2P send data  'abAB 12z'   |
 |   |   |
-| AT+PRECV=65535  |  receive only, can not send messages |
+| AT+PRECV=65533  |  send and receive messages |
 
 
 
