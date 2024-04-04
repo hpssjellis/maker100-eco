@@ -11,15 +11,24 @@ https://github.com/hpssjellis/mcu-stable-edu-launch/tree/main/rak2270-sticker-tr
 
 Note: The machine learning code is from this github Arduino Library    https://github.com/hpssjellis/RocksettaTinyML
 
-|RAKDAP1 |Color Wire  |RAK2270 Board and RakClip | 
-|:---|:---|:---|:---|
-|:---|:---|:---|:---|
-|:---|:---|:---|:---|
-|:---|:---|:---|:---|
+
+
+| RAKDAP1   |      Color Wire      |  RAK2270 Board and RakClip |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 
 
 ## Wires to RAK270 AStcker Tracker RAKDAP1 with RAKCLIP
+
+| RAKDAP1   |      Color Wire      |  RAK2270 Board and RakClip |
+|----------|:-------------:|------:|
+| 3V3 |  RED |VCC |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
 
 
 | RAKDAP1     |  Color Wire  |  RAK2270 Board and RakClip | 
