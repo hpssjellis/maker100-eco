@@ -32,40 +32,46 @@ Note: The machine learning code is from this github Arduino Library    https://g
 
 
 
-## For LoRaWan
-
-
-AT command reminders
 
 
 
 
+## General AT Commands
 | AT Command  |    Description      |
 |:----------|:-------------|
-| 3V3 |  RED |
-| GND |    BLACK   
-| U_RX | Brown 
-| U_TX | ORANGE |
 | ATZ | restarts  |
 | AT+BOOT | into boot mode |
 | AT+RUN | out of boot mode |
 | AT+? | AT command help |
 | ATE | Toggle echo AT commands |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+
+
+## LoRaWan AT Commands
+
+| AT Command  |    Description      |
+|:----------|:-------------|
+| AT+NWM=1 |  Activate LoRaWan  |
+| AT+BAND=? | Description: Active region (1 = CN470, 4 = EU868, 5 = US915, 6 = AU915)   |
+|   |   |
+| AT+DEVEUI=? |  LoRaWan Device EUI (8 byte) |
+| AT+APPEUI=?   |  LoRaWan Aplication EUI   (8 byte) |
+| AT+APPKEY=? |  LoRaWan Aplication Key   (16 Byte) |
+| AT+JOIN |  Join Network  |
+| AT+NWS  | Network Status  |
 
 
 
+## LoRa P2P AT Commands
+
+| AT Command  |    Description      |
+|:----------|:-------------|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
 
 
-
-ATZ     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  restarts   
-AT+BOOT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  into boot mode   
-AT+RUN  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  out of boot mode   
-AT+?    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  AT command help   
-ATE     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toggle echo AT commands   
 
 
 
