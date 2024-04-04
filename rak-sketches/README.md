@@ -37,11 +37,11 @@ Note: The machine learning code is from this github Arduino Library    https://g
 
 AT command reminders
 
-ATZ     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  restarts   
+ATZ     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  restarts   
 AT+BOOT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  into boot mode   
 AT+RUN  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  out of boot mode   
-AT+?    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  AT command help   
-ATE     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Toggle echo AT commands   
+AT+?    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  AT command help   
+ATE     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toggle echo AT commands   
 
 
 
@@ -51,8 +51,8 @@ AT+BAND=?    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Description: Active region (
 AT+DEVEUI=?   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  LoRaWan Device EUI (8 byte)   
 AT+APPEUI=?   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  LoRaWan Aplication EUI   (8 byte)   
 AT+APPKEY=?   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  LoRaWan Aplication Key   (16 Byte)   
-AT+JOIN      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Join Network   
-AT+NWS      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Network Status   
+AT+JOIN      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Join Network   
+AT+NWS      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;   Network Status   
 
 
 
@@ -62,8 +62,8 @@ AT+NWS      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Network Status
 
 ## FOR LoRa P2P
 
-AT+NWM=0  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Switch to LoRa P2P mode   
-AT+P2P=?  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   What are the P2P settings   
+AT+NWM=0  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Switch to LoRa P2P mode   
+AT+P2P=?  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   What are the P2P settings   
 AT+PFREQ=915000000   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Set Frequency to 915 MHZ for North America      
 
 
@@ -74,6 +74,6 @@ AT+PSEND=616241422031327A   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   P2P send data
 NOTE: to make the board constantly receive you need to set RX on=
 AT+PRECV=?   Codes for P2P received data:  try 0= only send, 30000=receive for 30 s, 65533 can receive and send, 65534=wait for one receive then can send, 65535 = only receive");    
 
-AT+PRECV=65535 
+AT+PRECV=65535 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  receive only do not send messages
 
 
