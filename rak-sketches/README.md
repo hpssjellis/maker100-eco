@@ -13,11 +13,7 @@ Note: The machine learning code is from this github Arduino Library    https://g
 
 
 
-| RAKDAP1   |      Color Wire      |  RAK2270 Board and RakClip |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+
 
 
 
@@ -26,8 +22,9 @@ Note: The machine learning code is from this github Arduino Library    https://g
 | RAKDAP1   |      Color Wire      |  RAK2270 Board and RakClip |
 |----------|:-------------:|------:|
 | 3V3 |  RED |VCC |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| GND |    BLACK   |   GND |
+| U_RX | Brown |    TX |
+| U_TX | ORANGE |    RX |
 
 
 
