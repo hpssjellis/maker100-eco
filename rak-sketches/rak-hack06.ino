@@ -1,8 +1,17 @@
 /*************************************
- *
- * Rak Hack made to print the important RAK "AT" commands for both LoRaWan and LoRa P2P settings
- * Documentation of AT and RUI3 API at https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#content
- *
+
+Rak Hack made to print the important RAK "AT" commands for both LoRaWan and LoRa P2P settings
+Documentation of AT and RUI3 API at https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#content
+
+Reminder using the Arduino IDE for the RAK2270 use the WisDuo_RAK3272-SiP_Board 
+The Preferences link is    
+
+https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless.com_rui_index.json
+
+and in the board manager search for "rak stm32"  
+
+For wire connections check this chart
+ 
 RAKDAP1   Color Wire  RAK2270 Board and RakClip
 3V3       RED         VCC
 GND       Black       GND
