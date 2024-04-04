@@ -3,6 +3,20 @@
  * Rak Hack made to print the important RAK "AT" commands for both LoRaWan and LoRa P2P settings
  * Documentation of AT and RUI3 API at https://docs.rakwireless.com/RUI3/Serial-Operating-Modes/AT-Command-Manual/#content
  *
+RAKDAP1   Color Wire  RAK2270 Board and RakClip
+3V3       RED         VCC
+GND       Black       GND
+U_RX      Brown       TX
+U_TX      Orange      RX
+
+Set These commands for North America
+AT+NWM=0
+AT+P2P=?
+AT+PFREQ=915000000
+AT+PSEND=4142207A
+
+
+A receiver needs to be active by the teacher.
 *************************************/
 
 void myBuffPrint(uint8_t* myBuff, uint8_t myLen){
