@@ -29,7 +29,12 @@ Note: The machine learning code is from this github Arduino Library    https://g
 
 
 
+.
 
+.
+
+
+.
 
 
 
@@ -44,6 +49,16 @@ Note: The machine learning code is from this github Arduino Library    https://g
 | AT+RUN | out of boot mode |
 | AT+? | AT command help |
 | ATE | Toggle echo AT commands |
+
+
+.
+
+
+.
+
+
+.
+
 
 
 ## LoRaWan AT Commands
@@ -61,28 +76,29 @@ Note: The machine learning code is from this github Arduino Library    https://g
 
 
 
+.
+
+
+
+.
+
+
+
+
+.
+
 ## LoRa P2P AT Commands
 
 | AT Command  |    Description      |
 |:----------|:-------------|
+| AT+NWM=0  |  Switch to LoRa P2P mode  |
+|  AT+P2P=? |  What are the P2P settings   |
+| AT+PFREQ=915000000  |  Set Frequency to 915 MHZ for North America   |
+| AT+PRECV=?  |   Codes for P2P received data:  try 0= only send, 30000=receive for 30 s, 65533 can receive and send, 65534=wait for one receive then can send, 65535 = only receive");   |
 |   |   |
+| AT+PSEND=616241422031327A  | P2P send data  'abAB 12z'   |
 |   |   |
-|   |   |
-|   |   |
-|   |   |
-
-
-
-
-
-AT+NWM=1    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Activate LoRaWan   
-AT+BAND=?    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Description: Active region (1 = CN470, 4 = EU868, 5 = US915, 6 = AU915)   
-
-AT+DEVEUI=?   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  LoRaWan Device EUI (8 byte)   
-AT+APPEUI=?   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  LoRaWan Aplication EUI   (8 byte)   
-AT+APPKEY=?   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  LoRaWan Aplication Key   (16 Byte)   
-AT+JOIN      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Join Network   
-AT+NWS      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Network Status   
+| AT+PRECV=65535  |  receive only, can not send messages |
 
 
 
@@ -90,20 +106,9 @@ AT+NWS      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 
 
-## FOR LoRa P2P
-
-AT+NWM=0  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Switch to LoRa P2P mode   
-AT+P2P=?  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   What are the P2P settings   
-AT+PFREQ=915000000   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Set Frequency to 915 MHZ for North America      
-
-
-AT+PSEND=616241422031327A   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   P2P send data  &nbsp;&nbsp;&nbsp;  'abAB 12z'   
 
 
 
-NOTE: to make the board constantly receive you need to set RX on=
-AT+PRECV=?   Codes for P2P received data:  try 0= only send, 30000=receive for 30 s, 65533 can receive and send, 65534=wait for one receive then can send, 65535 = only receive");    
 
-AT+PRECV=65535 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  receive only do not send messages
 
 
