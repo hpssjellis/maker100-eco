@@ -3,6 +3,8 @@
 * Rak-IMU Simple RAK2270 acceleration example
 *
 * Note: Serial speed is important 115200 is the best to use.
+
+Search for the include file  "LIS3DH"  and install the Sparkfun version
 ******************************************************************************/
 
 #include "SparkFunLIS3DH.h"
