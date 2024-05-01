@@ -12,7 +12,7 @@
 
 #include <CayenneLPP.h>
 
-#define OTAA_PERIOD   (120000)
+#define OTAA_PERIOD   (120000)   // 120000 = 2 minutes
 
 /** Packet buffer for sending */
 uint8_t collected_data[64] = { 0 };
@@ -153,7 +153,8 @@ void uplink_routine()
 
     float voltage = api.system.bat.get();
     Serial.printf("Battery Voltage: %2.2fV, ", voltage);
-    uint16_t intVoltage = (uint16_t)(voltage * 100);
+    // uint16_t intVoltage = (uint16_t)(voltage * 100);
+    uint16_t intVoltage = (uint16_t)round(voltage * 100.0);
 
     
     float tempT = getTemperature();
@@ -162,7 +163,7 @@ void uplink_routine()
   
     lpp.reset(); 
     lpp.addTemperature(1, temperature); 
-    lpp.addVoltage(2, intVoltage);  // this needs to be an integer int16 so 3.45 V is 345 etc
+  //  lpp.addVoltage(2, intVoltage);  // this needs to be an integer int16 so 3.45 V is 345 etc
 
     bufPtr = lpp.getBuffer();
     data_len = lpp.getSize();
