@@ -3,6 +3,7 @@
 
 
 
+
 /***
  *  This example shows LoRaWan protocol joining the network in OTAA mode, class A, region EU868.
  *  Device will send uplink every 20 seconds.
@@ -152,13 +153,16 @@ void uplink_routine()
 
     float voltage = api.system.bat.get();
     Serial.printf("Battery Voltage: %2.2fV, ", voltage);
+    uint16_t intVoltage = (uint16_t)(voltage * 100);
+
+    
     float tempT = getTemperature();
     float temperature = calibrateTemperature(tempT);
-  
+    
   
     lpp.reset(); 
     lpp.addTemperature(1, temperature); 
-    lpp.addVoltage(2, voltage);
+    lpp.addVoltage(2, intVoltage);  // this needs to be an integer int16 so 3.45 V is 345 etc
 
     bufPtr = lpp.getBuffer();
     data_len = lpp.getSize();
