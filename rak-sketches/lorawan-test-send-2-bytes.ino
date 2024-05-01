@@ -1,4 +1,5 @@
-/**/***
+
+/***
  *  This example shows LoRaWan protocol joining the network in OTAA mode, class A, region EU868.
  *  Device will send uplink every 20 seconds.
 ***/
@@ -53,7 +54,7 @@ void setup(){
 
   
  
-    if (!api.lorawan.join())	// Join to Gateway
+    if (!api.lorawan.join())  // Join to Gateway
     {
         Serial.printf("LoRaWan OTAA - join fail! \r\n");
         return;
@@ -74,20 +75,26 @@ void setup(){
 void uplink_routine()
 {
     /** Payload of Uplink */
-    uint8_t data_len = 0;                            // rand() / 10000000.0;  or   //  rand() % 10;
-    collected_data[data_len++] = (uint8_t) (rand() % 10);    // sending 23 should be the numbers
-    collected_data[data_len++] = (uint8_t) (rand() % 10);
+   // uint8_t data_len = 0;                            // rand() / 10000000.0;  or   //  rand() % 10;
+   // collected_data[data_len++] = (uint8_t) (rand() % 10);    // sending 23 should be the numbers
+   // collected_data[data_len++] = (uint8_t) (rand() % 10);
 
+    String myInput = "23";
+
+   // uint8_t collected_data[myInput.length()];
+    for (size_t i = 0; i < myInput.length(); i++) {
+       collected_data[i] = myInput[i];
+    }
 
     
     Serial.println("Data Packet:");
-    for (int i = 0; i < data_len; i++) {
+    for (int i = 0; i < myInput.length(); i++) {
         Serial.printf("0x%02X ", collected_data[i]);
     }
     Serial.println("");
   
     /** Send the data package */
-    if (api.lorawan.send(data_len, (uint8_t *) & collected_data, 2, true, 1)) {
+    if (api.lorawan.send(myInput.length(), (uint8_t *) & collected_data, 2, true, 1)) {
         Serial.println("Sending is requested");
     } else {
         Serial.println("Sending failed");
