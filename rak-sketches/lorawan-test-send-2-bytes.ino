@@ -1,4 +1,4 @@
-/***
+/**/***
  *  This example shows LoRaWan protocol joining the network in OTAA mode, class A, region EU868.
  *  Device will send uplink every 20 seconds.
 ***/
@@ -81,7 +81,7 @@ void uplink_routine()
 
     
     Serial.println("Data Packet:");
-    for (int i = 0; i < sizeof(collected_data); i++) {
+    for (int i = 0; i < data_len; i++) {
         Serial.printf("0x%02X ", collected_data[i]);
     }
     Serial.println("");
