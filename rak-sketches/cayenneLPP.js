@@ -1,3 +1,27 @@
+/*
+| Sensor Type           | IPSO  | LPP   | Hex | Data Size (bytes) | Data Type      | Resolution               |
+|-----------------------|-------|-------|-----|-------------------|----------------|--------------------------|
+| Digital Input         | 3200  | 0     | 0x00| 1                 | uint8_t        | 1 bit                    |
+| Digital Output        | 3201  | 1     | 0x01| 1                 | uint8_t        | 1 bit                    |
+| Analog Input          | 3202  | 2     | 0x02| 2                 | int16_t        | 0.01 (signed)            |
+| Analog Output         | 3203  | 3     | 0x03| 2                 | int16_t        | 0.01 (signed)            |
+| Illuminance Sensor    | 3301  | 101   | 0x65| 2                 | uint16_t       | 1 lux (unsigned MSB)     |
+| Presence Sensor       | 3302  | 102   | 0x66| 1                 | uint8_t        | 1 bit                    |
+| Temperature Sensor    | 3303  | 103   | 0x67| 2                 | int16_t        | 0.1 °C (signed MSB)      |
+| Humidity Sensor       | 3304  | 104   | 0x68| 1                 | uint8_t        | 0.5% (unsigned)          |
+| Accelerometer         | 3313  | 113   | 0x71| 6                 | int16_t[3]     | 0.001 G per axis (signed)|
+| Barometer             | 3315  | 115   | 0x73| 2                 | uint16_t       | 0.1 hPa (unsigned MSB)   |
+| Gyrometer             | 3334  | 134   | 0x86| 6                 | int16_t[3]     | 0.01 °/s per axis (signed)|
+| GPS Location          | 3336  | 136   | 0x88| 9                 | int32_t[3]     | Latitude: 0.0001° (signed), Longitude: 0.0001° (signed), Altitude: 0.01 meter (signed) |
+| Counter Input         | 5501  | 4     | 0x04| 2                 | uint16_t       | 1 event (unsigned MSB)  |
+| Battery Voltage       | 3202  | 255   | 0xFF| 2                 | int16_t        | 0.01 V (signed MSB)      |
+
+
+
+
+
+
+*/
 // Decode decodes an array of bytes into an object.
 //  - fPort contains the LoRaWAN fPort number
 //  - bytes is an array of payload, e.g. [225, 230, 255, 0]
