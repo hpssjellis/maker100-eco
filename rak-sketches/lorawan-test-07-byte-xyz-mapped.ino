@@ -12,7 +12,7 @@
 
 LIS3DH myIMU(I2C_MODE, 0x19); //Default constructor is I2C, addr 0x19.
 
-#define OTAA_PERIOD   (70000)    // 5min 300000
+#define OTAA_PERIOD   (120000)    // 5min 300000  2 min 120000
 
 /** Packet buffer for sending */
 uint8_t collected_data[64] = { 0 };
