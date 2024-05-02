@@ -1,3 +1,4 @@
+
 /***
  *  This example shows LoRaWan protocol joining the network in OTAA mode, class A, region EU868.
  *  Device will send uplink every 20 seconds.
@@ -147,7 +148,8 @@ void uplink_routine()
 
   int myX, myY, myZ;
   byte myX1, myY1, myZ1;
-  
+
+  /*
   myX = (int)(myIMU.readFloatAccelX() * 1023.0 / 4.0);
   
   myX1 =  (byte)map(myX, 0, 1023, 0, 255);
@@ -158,15 +160,39 @@ void uplink_routine()
   myZ = (int)(myIMU.readFloatAccelZ() * 1023.0 / 4.0);
   myZ1 = (byte)map(myZ, 0, 1023, 0, 255);
 
+*/
+
+
+// note: This data is 0   to 255   so subtract 127 to get zero G etc.
+//                   -2G  to +2G
+  
+
+  myX = (int)(myIMU.readFloatAccelX() * 9.8 * 1000);
+  
+  myX1 =  (byte)map(myX, -20000, 20000, 0, 255);
+  
+  myY = (int)(myIMU.readFloatAccelY() * 9.8 * 1000);
+  myY1 = (byte)map(myY, -20000, 20000, 0, 255);
+  
+  myZ = (int)(myIMU.readFloatAccelZ() * 9.8 * 1000);
+  myZ1 = (byte)map(myZ, -20000, 20000, 0, 255);
   
   //Get all parameters
   Serial.print("\nAccelerometer:\n");
   Serial.print(" X = ");
-  Serial.println(myX);
+  Serial.print(myX);  
+  Serial.print(", X map = ");
+  Serial.println(myX1);
+  
   Serial.print(" Y = ");
-  Serial.println(myY);
+  Serial.print(myY);
+  Serial.print(", Y map = ");
+  Serial.println(myY1);
+  
   Serial.print(" Z = ");
-  Serial.println(myZ);
+  Serial.print(myZ);
+  Serial.print(", Z map = ");
+  Serial.println(myZ1);
 
     
     uint8_t *bufPtr;
