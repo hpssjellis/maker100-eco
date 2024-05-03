@@ -1,4 +1,3 @@
-
 /***
  *  This example shows LoRaWan protocol joining the network in OTAA mode, class A, region EU868.
  *  Device will send uplink every 20 seconds.
@@ -13,20 +12,22 @@
 
 LIS3DH myIMU(I2C_MODE, 0x19); //Default constructor is I2C, addr 0x19.
 
-#define OTAA_PERIOD   (70000)    // 5min 300000
+#define OTAA_PERIOD   (120000)    // 5min 300000  120000 = 2 min
 
 /** Packet buffer for sending */
 uint8_t collected_data[64] = { 0 };
 
 CayenneLPP lpp(51);
 
-
-
-
-
-
 void setup()
 {
+      if(api.lorawan.nwm.get() != 1)  // set lorawan mode and reset
+    {
+        Serial.printf("Set Node device work mode %s\r\n",
+            api.lorawan.nwm.set(1) ? "Success" : "Fail");
+        api.system.reboot();
+    }
+
     Serial.begin(115200, RAK_AT_MODE);
     delay(5000);
     Serial.println("wait 15 s so you can connect the serial monitor");
@@ -145,54 +146,24 @@ void sendCallback(int32_t status)
 void uplink_routine()
 {
 
-
-  int myX, myY, myZ;
-  byte myX1, myY1, myZ1;
-
-  /*
-  myX = (int)(myIMU.readFloatAccelX() * 1023.0 / 4.0);
+  float myX2, myY2, myZ2;
   
-  myX1 =  (byte)map(myX, 0, 1023, 0, 255);
-  
-  myY = (int)(myIMU.readFloatAccelY() * 1023.0 / 4.0);
-  myY1 = (byte)map(myY, 0, 1023, 0, 255);
-  
-  myZ = (int)(myIMU.readFloatAccelZ() * 1023.0 / 4.0);
-  myZ1 = (byte)map(myZ, 0, 1023, 0, 255);
-
-*/
+  myX2 = (myIMU.readFloatAccelX() * 9.8);
+  myY2 = (myIMU.readFloatAccelY() * 9.8);
+  myZ2 = (myIMU.readFloatAccelZ() * 9.8);
 
 
-// note: This data is 0   to 255   so subtract 127 to get zero G etc.
-//                   -2G  to +2G
-  
-
-  myX = (int)(myIMU.readFloatAccelX() * 9.8 * 1000);
-  
-  myX1 =  (byte)map(myX, -20000, 20000, 0, 255);
-  
-  myY = (int)(myIMU.readFloatAccelY() * 9.8 * 1000);
-  myY1 = (byte)map(myY, -20000, 20000, 0, 255);
-  
-  myZ = (int)(myIMU.readFloatAccelZ() * 9.8 * 1000);
-  myZ1 = (byte)map(myZ, -20000, 20000, 0, 255);
   
   //Get all parameters
   Serial.print("\nAccelerometer:\n");
   Serial.print(" X = ");
-  Serial.print(myX);  
-  Serial.print(", X map = ");
-  Serial.println(myX1);
-  
+  Serial.println(myX2);  
+
   Serial.print(" Y = ");
-  Serial.print(myY);
-  Serial.print(", Y map = ");
-  Serial.println(myY1);
+  Serial.print(myY2);
   
   Serial.print(" Z = ");
-  Serial.print(myZ);
-  Serial.print(", Z map = ");
-  Serial.println(myZ1);
+  Serial.println(myZ2);
 
     
     uint8_t *bufPtr;
@@ -205,12 +176,12 @@ void uplink_routine()
 
 
     // then test the proper way, but it is more than 11 bytes!
-   //   lpp.addAccelerometer(9, myX, myY, myZ);
+      lpp.addAccelerometer(1, myX2, myY2, myZ2);
 
 
-     lpp.addAnalogOutput(1, myX1);
-     lpp.addAnalogOutput(2, myY1);
-     lpp.addAnalogOutput(3, myZ1);
+   //  lpp.addDigitalOutput(1, myX1);
+   //  lpp.addDigitalOutput(2, myY1);
+    // lpp.addDigitalOutput(3, myZ1);
 
 
 
@@ -241,9 +212,9 @@ void uplink_routine()
 
 
     Serial.println();
-    Serial.println("Sending X:" + String(myX1)+ " = "+ String(myX1, HEX));
-    Serial.println("Sending Y:" + String(myY1)+  " = "+ String(myY1, HEX));
-    Serial.println("Sending Z:" + String(myZ1)+  " = "+ String(myZ1, HEX));
+    Serial.println("Sending X:" + String(myX2)+ " = "+ String(myX2, HEX));
+    Serial.println("Sending Y:" + String(myY2)+  " = "+ String(myY2, HEX));
+    Serial.println("Sending Z:" + String(myZ2)+  " = "+ String(myZ2, HEX));
     Serial.println();
 
 
