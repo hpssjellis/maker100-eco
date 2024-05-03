@@ -208,9 +208,9 @@ void uplink_routine()
    //   lpp.addAccelerometer(9, myX, myY, myZ);
 
 
-     lpp.addDigitalOutput(1, myX1);
-     lpp.addDigitalOutput(2, myY1);
-     lpp.addDigitalOutput(3, myZ1);
+     lpp.addAnalogOutput(1, myX1);
+     lpp.addAnalogOutput(2, myY1);
+     lpp.addAnalogOutput(3, myZ1);
 
 
 
