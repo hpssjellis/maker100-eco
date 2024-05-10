@@ -14,3 +14,6 @@ PIXY2 advanced with SS on XIAO D0 so that other SPI devices could be attached (h
 
 
 <img width="384" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/b0dbb78e-24a8-446e-9746-32f1ef8a0fb2">
+
+
+will need looking at this page    https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:porting_guide  and deciding on SPI with SS I2C or UART.  Note that these setting are defined using the Pixymon configuration.  SPI SS is kind of diffiuclt.
