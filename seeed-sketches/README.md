@@ -7,3 +7,10 @@ Most of this code was copied from my repository called   [mcu-stable-edu-launch]
 
 
 look at the seed and rak folders
+
+
+
+PIXY2 advanced with SS on XIAO D0 so that other SPI devices could be attached (hopefully)
+
+
+<img width="384" alt="image" src="https://github.com/hpssjellis/maker100-eco/assets/5605614/b0dbb78e-24a8-446e-9746-32f1ef8a0fb2">
