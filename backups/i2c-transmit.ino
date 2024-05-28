@@ -1,26 +1,25 @@
 // Instructions:
 // Connect Arduino 1's SDA to Arduino 2's SDA
 // Connect Arduino 1's SCL to Arduino 2's SCL
-// Upload seeed-i2c-2xiao-receiver.ino to Arduino 1
-// Upload seeed-i2c-2xiao-transmitter.ino to Arduino 2
+// Upload Receiver.ino to Arduino 1
+// Upload Transmitter.ino to Arduino 2
 // Watch Serial Monitor on Arduino 1
 
 #include <Wire.h>
 
 #define receiverAddress 9
 
-uint8_t received = 0;
-void receiveEvent(int bytes) {
-  received = Wire.read();
-}
+int counter = 0;
 
 void setup() {
   Serial.begin(115200);
-  Wire.begin(receiverAddress);
-  Wire.onReceive(receiveEvent);
+  Wire.begin();
 }
 
 void loop() {
-  Serial.println(String(received));
+  counter++;
+  Wire.beginTransmission(receiverAddress);
+  Wire.write(counter);
+  Wire.endTransmission();
   delay(500);
 }
