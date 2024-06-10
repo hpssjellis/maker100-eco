@@ -10,7 +10,24 @@
 
 Using the LRrobot D100 Lidar kit
 
-$$109 CDN  https://ca.robotshop.com/products/ldrobot-d100-lidar-kit?gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wZ3eMFR-CrooEg9twaET89RPSnotREUcfU1b4nH3MJI7BHL4mM-IJkaAoObEALw_wcB
+$109 CDN  https://ca.robotshop.com/products/ldrobot-d100-lidar-kit?gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wZ3eMFR-CrooEg9twaET89RPSnotREUcfU1b4nH3MJI7BHL4mM-IJkaAoObEALw_wcB
+
+// IMPORTANT FOR XIAO-esp32S3 USING THE D100 LIDAR
+
+XIAO-ESP32S3   WEIRD Ground connecgtion
+
+XIAO-esp32S3 5V to Lidar Red wire 
+XIAO-esp32S3 GND to Lidar Yellow Wire
+XIAO-esp32S3 D7 to lidar green wire
+
+possible lidar black wire can control the pwm of the motor. Not sure.
+
+Also must install the vector  include library file Author: Peter Polidoro
+ 
+
+
+
+
 
  *  FOR the GRAYSCALE Waveshare OLED
  *   black GND 
