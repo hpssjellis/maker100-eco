@@ -5,6 +5,8 @@
  *  
  *  
  *   Instructions: 
+ *   IMPORTANT: Connect Arduino 1 receiver 3V3 TO 4.7 kOHM RESISTOR TO SDA (on XIAO SDA D4)
+ *   IMPORTANT: Connect Arduino 1 receiver 3V3 TO 4.7 kOHM RESISTOR TO SCL (on XIAO SCL D5)
  *   Connect Arduino 1 receiver GND to Arduino 2 transmitter GND
  *   Connect Arduino 1 receiver 3V3 to Arduino 2 transmitter 3V3 
  *   Connect Arduino 1 receiver SDA to Arduino 2 transmitter SDA  (on XIAO SDA D4)
