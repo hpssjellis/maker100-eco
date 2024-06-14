@@ -1,3 +1,5 @@
+/*
+
 Upload MacAdress code to RECEIVER board (XAIO #1). Make sure not to get them mixed up. Check serial monitor for output MacAdress. Save it.
 Ask chatGPT to convert it into the format needed for arduino, replace empty MacAdress in SENDER code on a DIFFERENT XAIO #2.
 Upload sender code to XAIO #2
@@ -5,11 +7,14 @@ Upload Receiver code to XAIO #1
 XAIO #2 (Sender) must be powered for it to work. Plug into a different computer or power bank.
 Plug XAIO #1 (Receiver) into a computer and check serial monitor.
 
-
+MAC Address  74:4D:BD:95:B4:6C
+Needed version
+byte myMACAddress[] = { 0x74, 0x4D, 0xBD, 0x95, 0xB4, 0x6C };
+I don't think we need ChatGPT to do this.
 
 
 ------------------------------------------------------
-
+*/
   #include <WiFi.h>
 
 void setup() {
