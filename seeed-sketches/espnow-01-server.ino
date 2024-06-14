@@ -3,7 +3,7 @@
 int myNum = 0;
 
 
-// REPLACE WITH YOUR RECEIVER MAC Address
+// No Need to change this
 uint8_t broadcastAddress[] ={0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 
 // Structure example to send data
@@ -21,13 +21,16 @@ esp_now_peer_info_t peerInfo;
 
 // callback when data is sent
 void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
-  Serial.print("\r\nLast Packet Send Status:\t");
   Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
+  Serial.println();
+ 
 }
  
 void setup() {
   // Init Serial Monitor
   Serial.begin(115200);
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, LOW);
  
   // Set device as a Wi-Fi Station
   WiFi.mode(WIFI_STA);
@@ -52,12 +55,14 @@ void setup() {
     Serial.println("Failed to add peer");
     return;
   }
+
+  delay(3000);
+  Serial.println("Broadcasting information ....");
 }
  
 void loop() {
   myNum++;
-  // Set values to send
- // sprintf(myData.myMessage, "Number Received: %d", myNum);
+  // sprintf(myData.myMessage, "Number Received: %d", myNum);
   sprintf(myData.myMessage, "Hello");
   myData.myCount = myNum;
 
@@ -66,6 +71,10 @@ void loop() {
   esp_err_t result = esp_now_send(broadcastAddress, (uint8_t *) &myData, sizeof(myData));
    
   if (result == ESP_OK) {
+    digitalWrite(LED_BUILTIN, LOW);
+    String mac = WiFi.macAddress();
+    Serial.print("Sent from: ");
+    Serial.println(mac);
     Serial.print("Sent: ");
     Serial.print(myData.myMessage);
     Serial.print(", ");
@@ -75,5 +84,5 @@ void loop() {
     Serial.println("Error sending the data");
   }
   delay(5000);
+  digitalWrite(LED_BUILTIN, HIGH);
 }
-
