@@ -18,7 +18,7 @@ void loop() {
 
   // Print the MAC address in Arduino byte array format
   Serial.println("MAC Address in byte array format: ");
-  Serial.print("byte myMACAddress[] = { ");
+  Serial.print("uint8_t broadcastAddress[] = { ");
   for (int i = 0; i < 6; i++) {
     Serial.print("0x");
     if (macBytes[i] < 0x10) {
@@ -34,4 +34,3 @@ void loop() {
   delay(5000); // Ensure serial monitor is ready
 
 }
-
