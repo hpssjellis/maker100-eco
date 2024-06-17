@@ -1,4 +1,4 @@
-/*
+7 /*
 Connect all wires the same on both XIAO's
 
 GND      to GND
@@ -150,6 +150,99 @@ void onReceive() {
 
 master
 
+
+/*
+Connect all wires the same on both XIAO's
+
+GND      to GND
+3V3      to 3V3
+MOSI D10 to MOSI D10
+MISO D9  to MISO D9
+SCK  D8  to SCK  D8
+SS  D0   to SS   D0
+
+*/
+
+#include <SPI.h>
+
+#define SS_PIN D0      // Slave Select pin
+#define MOSI_PIN D10   // Master Out Slave In
+#define MISO_PIN D9    // Master In Slave Out
+#define SCK_PIN D8     // Serial Clock
+
+void setup() {
+  pinMode(SS_PIN, OUTPUT);
+  digitalWrite(SS_PIN, HIGH); 
+  SPI.begin(SCK_PIN, MISO_PIN, MOSI_PIN, SS_PIN);
+
+  Serial.begin(115200); // Initialize serial communication for debugging
+}
+
+void loop() {
+  digitalWrite(SS_PIN, LOW);  // Select the slave device by pulling chip select low
+  //delayMicroseconds(2);
+
+  byte dataToSend = 42; // Data to send to the slave
+  byte receivedData = SPI.transfer(dataToSend); // Send data and receive response
+
+ // delayMicroseconds(2);
+  digitalWrite(SS_PIN, HIGH);  // Deselect the slave device
+
+  Serial.print("Master sent: ");
+  Serial.print(dataToSend);
+  Serial.print(", Master received: ");
+  Serial.println(receivedData);
+
+  delay(1000); // Wait for 1 second before sending the next data
+}
+
+
+
+
+
+// june 17, 2024  almost working slave
+
+
+#include <SPI.h>
+
+#define SS_PIN D0      // Slave Select pin
+#define MOSI_PIN D10   // Master Out Slave In
+#define MISO_PIN D9    // Master In Slave Out
+#define SCK_PIN D8     // Serial Clock
+
+volatile byte myReceivedData = 0;
+
+void setup() {
+  pinMode(SS_PIN, INPUT_PULLUP);  // Set SS pin as input with pull-up resistor
+  SPI.begin(SCK_PIN, MISO_PIN, MOSI_PIN);  // Initialize as SPI slave
+
+  // Attach interrupt to the SPI slave select pin
+  attachInterrupt(digitalPinToInterrupt(SS_PIN), onReceive, FALLING);
+
+  Serial.begin(115200); // Initialize serial communication for debugging
+}
+
+void loop() {
+  // Print the received data
+ // Serial.print("Slave received: ");
+ // Serial.println(myReceivedData);
+
+  //delay(1000);
+}
+
+void onReceive() {
+  // Receive data from the master
+  SPIClass *spi = &SPI;
+  myReceivedData = spi->transfer(56);
+}
+
+
+
+
+
+
+
+// almost master
 
 /*
 Connect all wires the same on both XIAO's
