@@ -1,5 +1,7 @@
 ## Maker100-Eco   (Economy) Robotics, IoT and TinyML Machine Learning course is almost ready to be used!
 
+The Currciulum for this course is at [maker100-curriculum](https://github.com/hpssjellis/maker100-curriculum)
+
 An economical version of my successful [Maker100](https://github.com/hpssjellis/maker100) Robotics, IoT and TinyML Machine Learning in-person course this time using less expensive hardware such as the [$13.99 USD Seeedstudio XiaoEsp32s3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for the course basics and some [EdgeImpulse.com](https://edgeimpulse.com/) cell phone assisted machine learning and the [$14.50 USD RakWireless RAK2270StickerTracker](https://store.rakwireless.com/products/rak2270-rak-sticker-tracker?variant=43046272303302) for the LoRa/LoRaWan and Motion (x,y,z) machine learning using [tinyMLjs](https://hpssjellis.github.io/tinyMLjs/public/index.html) a static webpage webSerial Machine Learning method I have made.
 
 
