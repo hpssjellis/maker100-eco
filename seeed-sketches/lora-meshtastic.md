@@ -11,6 +11,18 @@ https://meshtastic.org/docs/development/firmware/build/
 
 
 
+https://wiki.seeedstudio.com/wio_sx1262_xiao_esp32s3_for_single_channel_gateway/
+
+https://wiki.seeedstudio.com/wio_sx1262_xiao_esp32s3_for_lora_sensor_node/
+
+
+https://wiki.seeedstudio.com/wio_sx1262_xiao_esp32s3_for_single_channel_gateway/
+
+
+
+
+
+
 
 
 
