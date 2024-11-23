@@ -19,7 +19,9 @@ https://wiki.seeedstudio.com/wio_sx1262_xiao_esp32s3_for_lora_sensor_node/
 https://wiki.seeedstudio.com/wio_sx1262_xiao_esp32s3_for_single_channel_gateway/
 
 
+Manual for the sx1262
 
+https://www.semtech.com/products/wireless-rf/lora-connect/sx1262
 
 
 
