@@ -17,8 +17,8 @@
 
 void setup() {
     pinMode(D3, OUTPUT);
-    pinMode(D5, OUTPUT);   // PWM 0 to 256
-    pinMode(D4, OUTPUT);   // digital 0 to 1
+    pinMode(D4, OUTPUT);   // PWM 0 to 256
+    pinMode(D5, OUTPUT);   // digital 0 to 1
     pinMode(LED_BUILTIN, OUTPUT);
 
 }
