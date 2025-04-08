@@ -1,3 +1,11 @@
+
+
+//IF THIS DOES NOT RUN, TRY BOARD VERSION 3.0.7
+
+
+
+
+
 /* Edge Impulse Arduino examples
  * Copyright (c) 2022 EdgeImpulse Inc.
  *
