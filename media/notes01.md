@@ -10,4 +10,11 @@
 
 1. All bonus assignments are graded at 9/9 to 11/9 (completing a bonus assignmennt must help your grade )
 
-2. 
+1. Anyone completing and helping three others to complete assignments not on the marks program potentially makes that assignment bonus or mandatory at teachers discretion.
+
+1. Your final grade is your average grade on all assignments with the final projects in total out of 100
+
+1. Any student finishing all mandatory assignments gets the higher mark of either their average or their final progect grade whichever is higher
+
+1. When an assignment doesn't work remember it worked last year! problem solve what may have changed?
+ 
