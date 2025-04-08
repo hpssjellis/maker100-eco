@@ -59,7 +59,9 @@
 
 
 
-#include <I2S.h>
+#include <I2S.h>     
+//#include "ESP_I2S.h"   // hmmmmm, I think this is correct for the esp32
+
 #define SAMPLE_RATE 16000U
 #define SAMPLE_BITS 16
 
