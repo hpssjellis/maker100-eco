@@ -6,7 +6,7 @@
 
 1. 2nd final project: has multiple sensors, and / or multiple actuators, and / or IoT and / or machine learning. Determines a minimum grade of 86% if all assignments passed.
 
-1. 3rd final project is in groups assigned by teacher or proven usefulness, must include machine learning and determins minimum grade of 95% if all assignments passed (or up to +10% by teacher descretion) 
+1. 3rd final project is in groups assigned by teacher or proven usefulness, must include machine learning and determines minimum grade of 95% if all assignments passed (or up to +10% by teacher discretion) 
 
 1. All incomplete term assignments get a zero unless they are shown as "bonus".
 
