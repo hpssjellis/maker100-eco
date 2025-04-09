@@ -1,3 +1,6 @@
+// I assume needs board version 3.0.0 I have tested it on board version 3.0.7 which vision also works on.
+
+
 /*
   Must enable OPI PSRAM, and USB CDC on Boot (Tools menu at top)
 
