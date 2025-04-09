@@ -1,6 +1,6 @@
 # End of semester notes
 
-1. Finishing all the assignments just means you are ready to do the final projects, which determine if you pass the course of not.
+1. Finishing all the assignments just means you are ready to do the final projects, which determine if you pass the course or not.
 
 1. 1st final project: is a sensor with an actuator using the xiao-esp32s3-sense . Determines a minimum grade of 50% if all assignments passed.
 
@@ -17,5 +17,5 @@
 1. Your final grade is the higher of these two grades (If all mandatory assignments passed): 1. your average grade on all assignments (marked out of 9) with the final projects grade (marked out of 100). 2. your final projects total grade.
 
 
-1. When an assignment doesn't work remember it worked last year! So what has changed? Edgeimpullse code, libraries, esp32 board version...
+1. When an assignment doesn't work remember it worked last year! So what has changed? Edgeimpulse code, libraries, wiring wrong, module doesn't work, board doesn't work, esp32 board version...
  
