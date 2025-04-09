@@ -1,6 +1,8 @@
 // I THINK THIS CODE ALSO WORKS FOR CLASSIFICATION.
 
 // THIS CODE WORKS ON THE ESPRESIFF ESP32 BOARD 3.0.7, BUT NOT ON THE 3.1.0 BOARD VERSION!!!!!!!
+// Board version 2.0.17 works for both edgeImpulse sound and visioin
+// Advanced assignment to fix the vision for latest board version v3.2.0 or later.
 
 
 
