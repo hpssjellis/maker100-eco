@@ -1,9 +1,7 @@
 
 
-//IF THIS DOES NOT RUN, TRY BOARD VERSION 3.0.7
-// STILL TESTING POSSIBLY USE THE DEFAULT SOUND FROM EDGEIMPULSE
-
-
+//IF THIS DOES NOT RUN, TRY BOARD VERSION 2.0.17, compile fails on v 3.0.0
+// Advanced assignment, get this running using RTOS and the latest board version
 
 
 
