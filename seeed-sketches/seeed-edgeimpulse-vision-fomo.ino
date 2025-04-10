@@ -4,6 +4,8 @@
 // Board version 2.0.17 works for both edgeImpulse sound and visioin
 // Advanced assignment to fix the vision for latest board version v3.2.0 or later.
 
+// The changes from board verison 2.x to 3.x are outlined here
+//    https://docs.espressif.com/projects/arduino-esp32/en/latest/migration_guides/2.x_to_3.0.html
 
 
 /* Edge Impulse Arduino examples
