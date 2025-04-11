@@ -1,7 +1,8 @@
 // I THINK THIS CODE ALSO WORKS FOR CLASSIFICATION.
 
-// THIS CODE WORKS ON THE ESPRESIFF ESP32 BOARD 3.0.7, BUT NOT ON THE 3.1.0 BOARD VERSION!!!!!!!
-// Board version 2.0.17 works for both edgeImpulse sound and visioin
+
+// Board version 2.0.17 works for both edgeImpulse sound and vision
+// Make sure  TOOLS --> PSRAM is set to OPI PSRAM
 // Advanced assignment to fix the vision for latest board version v3.2.0 or later.
 
 // The changes from board verison 2.x to 3.x are outlined here
@@ -30,7 +31,21 @@
  * SOFTWARE.
  */
 
+/* this is interesting code
+
+#if ARDUINO_ESP32_MAJOR_VERSION >= 3
+  Serial.println("Running code for ESP32 board version 3.x");
+  // Run version 3.x specific code
+#else
+  Serial.println("Running code for ESP32 board version 2.x");
+  // Run version 2.x specific code
+#endif
+
+
 /*
+
+
+*/
 
 This stuff is just for reference showing all the camera setting you could try.
 
