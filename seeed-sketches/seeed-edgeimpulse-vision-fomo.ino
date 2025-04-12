@@ -45,12 +45,12 @@
 /*
 
 
-*/
 
-This stuff is just for reference showing all the camera setting you could try.
 
-NOTE: Must have compile setting 
-PSRAM: OPI PSRAM 
+//This stuff is just for reference showing all the camera setting you could try.
+
+//NOTE: Must have compile setting 
+//PSRAM: OPI PSRAM 
 
 typedef enum {
     FRAMESIZE_96X96,    // 96x96
