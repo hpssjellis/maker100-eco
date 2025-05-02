@@ -1,4 +1,5 @@
-
+// build model from deployment page, use tf lite compiler and output as arduino library
+// header file name is [project-name]_inferencing.h or smn probably
 
 //IF THIS DOES NOT RUN, TRY BOARD VERSION 2.0.17, compile fails on v 3.0.0
 // Advanced assignment, get this running using RTOS and the latest board version
@@ -51,15 +52,14 @@
 // COMMENT OUT THE OTHER ONES BELOW
 
 
-//#include <XIAO-ESP32S3-KWS_inferencing.h>
-#include <ei-Shaun-0unknown-1yes-2no-v4_inferencing.h>
-//#include <Marco-KWS-KIC_inferencing.h>
+
+INCLUDE MODEL HEADER FILE HERE
 
 
 
 
-#include <I2S.h>     
-//#include "ESP_I2S.h"   // hmmmmm, I think this is correct for the esp32
+// #include <I2S.h>     
+#include "ESP_I2S.h"   // hmmmmm, I think this is correct for the esp32 (yes :))
 
 #define SAMPLE_RATE 16000U
 #define SAMPLE_BITS 16
@@ -80,6 +80,10 @@ static signed short sampleBuffer[sample_buffer_size];
 static bool debug_nn = false; // Set this to true to see e.g. features generated from the raw signal
 static bool record_status = true;
 
+
+I2SClass I2S; // ESP_I2S is object oriented
+
+
 /**
  * @brief      Arduino setup function
  */
@@ -94,8 +98,10 @@ void setup()
     pinMode(LED_BUILT_IN, OUTPUT); // Set the pin as output
     digitalWrite(LED_BUILT_IN, HIGH); //Turn off
     
-    I2S.setAllPins(-1, 42, 41, -1, -1);
-    if (!I2S.begin(PDM_MONO_MODE, SAMPLE_RATE, SAMPLE_BITS)) {
+    I2S.setPinsPdmRx(42, 41); // ESP_I2S
+    // I2S.setAllPins(-1, 42, 41, -1, -1);
+    // if (!I2S.begin(PDM_MONO_MODE, SAMPLE_RATE, SAMPLE_BITS)) {
+    if (!I2S.begin(I2S_MODE_PDM_RX, SAMPLE_RATE, I2S_DATA_BIT_WIDTH_16BIT, I2S_SLOT_MODE_MONO)) {
       Serial.println("Failed to initialize I2S!");
     while (1) ;
   }
@@ -197,7 +203,8 @@ static void capture_samples(void* arg) {
 
     /* read data at once from i2s - Modified for XIAO ESP2S3 Sense and I2S.h library */
     // i2s_read((i2s_port_t)1, (void*)sampleBuffer, i2s_bytes_to_read, &bytes_read, 100);
-    esp_i2s::i2s_read(esp_i2s::I2S_NUM_0, (void*)sampleBuffer, i2s_bytes_to_read, &bytes_read, 100);
+    // esp_i2s::i2s_read(esp_i2s::I2S_NUM_0, (void*)sampleBuffer, i2s_bytes_to_read, &bytes_read, 100);
+    I2S.readBytes((char*)sampleBuffer, i2s_bytes_to_read);
 
     if (bytes_read <= 0) {
       ei_printf("Error in I2S read : %d", bytes_read);
